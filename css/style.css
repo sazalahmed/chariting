@@ -1470,10 +1470,48 @@ header .wsus__header_info a span {
 
 
 /* Volanteer start */
+.wsus__volunteer {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.wsus__volunteer_overlay {}
+
+.wsis__single_volunteer {
+    background: var(--colorWhite);
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid #ebebeb;
+}
 
 
+.volunteer_slider .wsis__single_volunteer {
+    margin: 25px 12px 0px 12px;
+}
 
+.wsis__single_volunteer .img {
+    height: 330px;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
+.wsis__single_volunteer .text {
+    padding: 20px 20px 10px 20px;
+}
 
+.wsis__single_volunteer .text h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.wsis__single_volunteer .text p {
+    text-align: center;
+}
 
 /* Volanteer end */
