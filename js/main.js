@@ -69,11 +69,11 @@ $(function () {
     });
 
 
-    // Category Slider
-    $('.category_slider').slick({
+    // Service Slider
+    $('.service_slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: false,
+        slidesToScroll: 4,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
@@ -111,7 +111,7 @@ $(function () {
     $('.event_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
@@ -149,7 +149,7 @@ $(function () {
     $('.volunteer_slider').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
