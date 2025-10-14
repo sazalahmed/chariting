@@ -1700,3 +1700,135 @@ header .wsus__header_info a span {
 }
 
 /* faq end */
+/* Video and donate start */
+.wsus__video_and_donate {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.wsus__video_and_donate_overlay {
+    background: #000000c9;
+}
+
+.wsus__video_donate_text_top {
+    background: var(--colorWhite);
+    /* padding: 15px; */
+    border-radius: 35px;
+    position: relative;
+    top: -150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.wsus__video_donate_text {
+    padding: 50px 25px 50px 50px;
+}
+
+.wsus__video_donate_text h2 {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.wsus__video_donate_text p {
+    /* background: #f9f5f5; */
+    /* padding: 20px; */
+    /* color: var(--colorBlack); */
+    /* border: 1px dashed #eee; */
+    border-left: 5px solid var(--colorPrimary);
+    /* border-radius: 20px; */
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding-left: 15px;
+    font-style: italic;
+}
+
+.wsus__video_donate_text h5 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: revert;
+}
+
+.wsus__video_donation_box {}
+
+.wsus__video_donation_box input {
+    border-radius: 50px;
+    background: var(--colorPrimary);
+    border: none;
+    padding: 14px 25px;
+    color: var(--colorBlack);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.wsus__video_donation_box input::placeholder {
+    color: var(--colorBlack);
+}
+
+.wsus__video_donation_box ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 10px;
+    margin-bottom: 50px;
+}
+
+.wsus__video_donation_box ul li {
+    background: #eee;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: var(--colorBlack);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    text-transform: capitalize;
+}
+
+.wsus__video_donation_box ul li.active {
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+}
+
+.wsus__video_donate_img {
+    border-radius: 25px;
+    overflow: hidden;
+    height: 550px;
+    margin: 15px 15px 15px 0px;
+}
+
+.wsus__video_donate_bottom {
+    text-align: center;
+}
+
+.wsus__video_donate_bottom a {}
+
+.wsus__video_donate_bottom h4 {
+    text-align: center;
+    color: var(--colorPrimary);
+    font-family: var(--cursiveFont);
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.wsus__video_donate_bottom h2 {
+    color: var(--colorWhite);
+    font-size: 39px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.wsus__video_donate_bottom p {
+    color: var(--colorWhite);
+    opacity: .8;
+}
+
+/* Video and donate end */

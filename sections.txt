@@ -7,10 +7,11 @@
 * Volunteers Section
 * About Us Section
 * Event Section
-* Test_slider
+* Test Slider
+* Video Banner Section
 Partner Section
 News/Blogs Section
-Video Banner Section
+
 
 What We Do Section
 Recently Added Campaigns
