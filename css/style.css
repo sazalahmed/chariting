@@ -1532,6 +1532,57 @@ header .wsus__header_info a span {
 /* event end */
 
 
+/* text sloder start */
+.wsus__text_slider {
+    margin-bottom: 50px;
+    padding-bottom: 65px;
+    padding-top: 100px;
+}
+
+.wsus__text_slider .marquee_animi {
+    /* margin-bottom: 50px; */
+}
+
+.wsus__text_slider .marquee_animi ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0px 25px;
+}
+
+.wsus__text_slider .marquee_animi ul li {
+    font-size: 90px;
+    font-weight: 900;
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+    font-family: var(--headingFont);
+    color: var(--colorBlack);
+    position: relative;
+    padding-left: 50px;
+    line-height: 70px;
+}
+
+.wsus__text_slider .marquee_animi ul li::after {
+    position: absolute;
+    content: "";
+    background: url(../images/text_slider_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.wsus__text_slider .marquee_animi ul li:nth-child(2n) {
+    -webkit-text-fill-color: var(--colorWhite);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--colorBlack);
+}
+
+/* text sloder end */
 /* Become volunteer start */
 .wsus__become_volunteer_bg {
     background-position: center !important;
@@ -1577,8 +1628,6 @@ header .wsus__header_info a span {
     background-size: cover !important;
 }
 
-.wsus__volunteer_overlay {}
-
 .wsis__single_volunteer {
     background: var(--colorWhite);
     border-radius: 16px;
@@ -1587,7 +1636,6 @@ header .wsus__header_info a span {
     margin-top: 25px;
     border: 1px solid #ebebeb;
 }
-
 
 .volunteer_slider .wsis__single_volunteer {
     margin: 25px 12px 0px 12px;
@@ -1616,3 +1664,39 @@ header .wsus__header_info a span {
 }
 
 /* Volanteer end */
+/* faq start */
+.wsus__faq_text .accordion-item {
+    margin-top: 15px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+.wsus__faq_text .accordion-header button {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: none !important;
+}
+
+.wsus__faq_text .accordion-button:not(.collapsed) {
+    color: var(--colorBlack);
+    background-color: var(--colorPrimary);
+    border-bottom: 1px solid #eee;
+}
+
+.wsus__faq_text .accordion-button::after {
+    background-image: url(../images/plus_icon.png);
+    width: 13px;
+    height: 13px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wsus__faq_text .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus_icon.png);
+}
+
+/* faq end */

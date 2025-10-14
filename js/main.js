@@ -50,7 +50,7 @@ $(function () {
     $('.category_slider').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
@@ -142,6 +142,18 @@ $(function () {
                 }
             }
         ]
+    });
+
+
+    // event slider
+    $('.marquee_animi').marquee({
+        speed: 50,
+        gap: 25,
+        delayBeforeStart: 0,
+        direction: 'left',
+        duplicated: true,
+        pauseOnHover: true,
+        startVisible: true,
     });
 
 

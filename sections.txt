@@ -2,15 +2,19 @@
 * Campaigns Category Section
 * Featured Campaigns ****Section
 * Join With Us As a Volunteer Section
-Recently Added Campaigns
-Volunteers Section
+* FAQ Section
+* Counter Section
+* Volunteers Section
 * About Us Section
 * Event Section
+* Test_slider
 Partner Section
-* Counter Section
 News/Blogs Section
+Video Banner Section
+
+What We Do Section
+Recently Added Campaigns
 Testimonials Section
 Success Story Section
-What We Do Section
-Video Banner Section
-FAQ Section
+
+
