@@ -7,10 +7,11 @@
 * Volunteers Section
 * About Us Section
 * Event Section
-* Test Slider
+* Text Slider
 * Video Banner Section
-Partner Section
-News/Blogs Section
+* Partner Section
+* News/Blogs Section
+* Footer
 
 
 What We Do Section
