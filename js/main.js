@@ -46,6 +46,44 @@ $(function () {
     });
 
 
+    // Category Slider
+    $('.category_slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+
     // Select js
     $('.select_js').niceSelect();
 
@@ -72,7 +110,7 @@ $(function () {
     // Service Slider
     $('.service_slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
@@ -110,7 +148,7 @@ $(function () {
     // Event Slider
     $('.event_slider').slick({
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
@@ -148,7 +186,7 @@ $(function () {
     // volunteer_slider Slider
     $('.volunteer_slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: true,

@@ -61,6 +61,11 @@ img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 input,
@@ -848,15 +853,13 @@ header .wsus__header_info a span {
 }
 
 .category_slider .wsus__category_item {
-    margin: 0 12px;
+    margin: 5px 12px 0px 12px;
 }
 
 .wsus__category_item .img {
     width: 180px;
     height: 180px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid var(--colorWhite);
+    border: 5px solid var(--colorWhite);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 0 auto;
     transition: all linear .3s;
@@ -864,11 +867,68 @@ header .wsus__header_info a span {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+
+.wsus__category_item .img img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__category_item:hover h3 {
+    color: var(--colorPrimary);
+}
+
+.wsus__category_item:hover .img {
+    box-shadow: none;
+}
+
+.wsus__category_item:hover .img img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.wsus__category_item .img::after {
+    position: absolute;
+    content: "";
+    width: 190px;
+    height: 190px;
+    border: 1px dashed var(--colorPrimary);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: -10px;
+    left: -10px;
+    z-index: 2;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    opacity: 0;
+}
+
+.wsus__category_item:hover .img::after {
+    opacity: 1;
 }
 
 .wsus__category_item h3 {
     text-align: center;
-    font-size: 22px;
+    text-transform: capitalize;
+    font-size: 18px;
     font-weight: 700;
     margin-top: 15px;
     transition: all linear .3s;
