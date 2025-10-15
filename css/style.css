@@ -1943,7 +1943,7 @@ footer {
 }
 
 .wsus__footer_overlay {
-    background: #000000d6;
+    background: #000000d9;
 }
 
 .wsus__footer_top {
@@ -1970,9 +1970,9 @@ footer {
 .wsus__footer_top ul li {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
     background: #ffffff21;
-    padding: 10px;
+    padding: 10px 30px 10px 10px;
     border-radius: 50px;
     position: relative;
     padding-left: 75px;
@@ -1997,7 +1997,6 @@ footer {
 }
 
 .wsus__footer_top ul li h4 {
-    display: block;
     color: var(--colorWhite);
     font-size: 20px;
     font-weight: 800;
@@ -2007,7 +2006,6 @@ footer {
     color: var(--colorWhite);
     opacity: .7;
     font-size: 14px;
-    width: 100%;
     line-height: 16px;
     margin-top: 2px;
 }
@@ -2137,7 +2135,7 @@ footer {
     margin-top: 75px;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 
 .wsus__footer_botton_text p {
