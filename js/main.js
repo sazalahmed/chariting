@@ -285,7 +285,6 @@ $(function () {
         fade: false,
         asNavFor: '.campaign_slider_small',
     });
-
     $('.campaign_slider_small').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -313,6 +312,43 @@ $(function () {
     });
 
 
+
+    // related campaing Slider
+    $('.related_campaing_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
 
 

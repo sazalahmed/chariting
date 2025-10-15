@@ -25,17 +25,18 @@ Success Story Section
 Donor List
 Donation Page
 * Campaigns
-Campaign details
+* Campaign details
 * Blogs
 * Blog details
-Events
+* Events
+Events details
 Success Stories
 Gallery
 Contact Us
-FAQ
+* FAQ
 Testimonials
-Privacy Policy
-Terms Of Conditions
+* Privacy Policy
+* Terms Of Conditions
 
 
 
