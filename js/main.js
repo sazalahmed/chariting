@@ -98,14 +98,10 @@ $(function () {
 
     // Barfiller js
     $(document).ready(function () {
-        $('#bar1').barfiller({});
-        $('#bar2').barfiller({});
-        $('#bar3').barfiller({});
-        $('#bar4').barfiller({});
-        $('#bar5').barfiller({});
-        $('#bar6').barfiller({});
+        $('.barfiller').each(function () {
+            $(this).barfiller({});
+        });
     });
-
 
     // Service Slider
     $('.service_slider').slick({
@@ -274,9 +270,47 @@ $(function () {
     });
 
 
+    // Sticky sidebar
+    if ($('.sticky_sidebar').length > 0) {
+        $(".sticky_sidebar").stickit({
+            top: 90,
+        });
+    }
 
+    // campaign details slider
+    $('.campaign_slider_large').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: false,
+        asNavFor: '.campaign_slider_small',
+    });
 
+    $('.campaign_slider_small').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.campaign_slider_large',
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        centerPadding: "0",
+        focusOnSelect: true,
 
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 5,
+                }
+            }
+        ]
+    });
 
 
 

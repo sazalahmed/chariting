@@ -12,11 +12,30 @@
 * Partner Section
 * News/Blogs Section
 * Footer
-
-
 What We Do Section
 Recently Added Campaigns
 Testimonials Section
 Success Story Section
+
+
+
+* Home
+* About
+* Volunteers
+Donor List
+Donation Page
+* Campaigns
+Campaign details
+* Blogs
+* Blog details
+Events
+Success Stories
+Gallery
+Contact Us
+FAQ
+Testimonials
+Privacy Policy
+Terms Of Conditions
+
 
 
