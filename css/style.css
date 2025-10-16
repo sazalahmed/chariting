@@ -561,6 +561,16 @@ button {
 
 /* pagination end */
 
+.form-check-input {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
 .form-check-input:checked {
     background-color: var(--colorPrimary);
     border-color: var(--colorPrimary);
@@ -572,7 +582,7 @@ button {
 }
 
 .form-check-input:checked[type=checkbox] {
-    --bs-form-check-bg-image: url(../images/checkbox_check.svg);
+    --bs-form-check-bg-image: url(../images/checkbox_check.svg) !important;
 }
 
 /*================================
@@ -3504,14 +3514,168 @@ footer {
 
 
 /*===========================
-    Service details start
+                Sign in start
 ===========================*/
+.wsus__sign_up {
+    margin-right: 210px;
+    margin-left: 210px;
+    /* background: #fbf1f1; */
+}
 
+.wsus__sign_up_img {
+    height: 100%;
+    background: #fbf1f1;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 770px;
+}
 
+.wsus__sign_up_contant {
+    padding: 70px;
+    background: #fbf1f1;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.wsus__sign_up_contant h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+}
 
+.wsus__sign_up_contant p {
+    color: var(--colorBlack);
+    margin-top: 10px;
+}
 
+.wsus__login_form {
+    margin-top: 20px;
+}
 
+.wsus__login_form input[type="text"],
+.wsus__login_form input[type="email"],
+.wsus__login_form input[type="password"] {
+    margin-top: 15px;
+    background: var(--colorWhite);
+}
+
+.wsus__login_form .wsus__remember_me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.wsus__login_form .wsus__remember_me input {
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+.wsus__login_form .wsus__remember_me label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wsus__login_form .forgot_password {
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
+
+.wsus__login_form .forgot_password:hover {
+    color: var(--colorBlack);
+}
+
+.wsus__login_form button {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 17px 16px 16px 25px;
+}
+
+.wsus__login_form button::after {
+    display: none;
+}
+
+.wsus__sign_up_contant b {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    color: var(--colorBlack);
+}
+
+.wsus__sign_up_contant b::after {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: 35px;
+    width: 155px;
+    height: 1px;
+    background: #62626233;
+}
+
+.wsus__sign_up_contant b::before {
+    position: absolute;
+    content: "";
+    top: 11px;
+    right: 35px;
+    width: 155px;
+    height: 1px;
+    background: #62626233;
+}
+
+.wsus__sign_up_others_option {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px;
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    border: 1px solid #62626233;
+    text-transform: capitalize;
+    margin-top: 18px;
+    border-radius: 50px;
+}
+
+.wsus__sign_up_others_option:hover {
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.wsus__sign_up_others_option img {
+    width: 17px !important;
+    height: 17px !important;
+    margin-right: 10px;
+}
+
+.wsus__sign_up_contant .sign_up {
+    text-align: center;
+    color: var(--paraColor);
+    margin-top: 15px;
+}
+
+.wsus__sign_up_contant .sign_up a {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+}
+
+.wsus__sign_up_contant .sign_up a:hover {
+    color: var(--colorPrimary);
+}
 
 
 
@@ -3520,5 +3684,5 @@ footer {
 
 
 /*===========================
-    Service details end
+        Sign in end
 ===========================*/
