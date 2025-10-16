@@ -22,21 +22,21 @@ Success Story Section
 * Home
 * About
 * Volunteers
-Donor List
-Donation Page
 * Campaigns
 * Campaign details
 * Blogs
 * Blog details
 * Events
-Events details
-Success Stories
-Gallery
-Contact Us
+* Events details
+* Contact Us
 * FAQ
-Testimonials
 * Privacy Policy
 * Terms Of Conditions
+Testimonials
+Success Stories
+Gallery
+Donor List
+Donation Page
 
 
 
