@@ -12,8 +12,7 @@
 * Partner Section
 * News/Blogs Section
 * Footer
-What We Do Section
-Recently Added Campaigns
+* What We Do Section/Services
 Testimonials Section
 Success Story Section
 

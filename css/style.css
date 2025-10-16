@@ -3317,7 +3317,7 @@ footer {
 .wsus__contact_form form {
     background: #F7F7F7;
     padding: 50px;
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
 .wsus__contact_form form h3 {
@@ -3378,7 +3378,7 @@ footer {
 
 .contact_map {
     height: 570px;
-    border-radius: 25px;
+    border-radius: 31px;
     overflow: hidden;
     border: 1px solid #eee;
 }
