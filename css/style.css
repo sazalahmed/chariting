@@ -527,6 +527,7 @@ button {
 
 /* breadcremd end */
 
+
 /* pagination start */
 .wsus__pagination ul {
     gap: 10px;
@@ -577,6 +578,7 @@ button {
 /*================================
     GLOBAL CSS END 
 ================================*/
+
 
 /*===========================
     Home page start
@@ -951,15 +953,15 @@ header .wsus__header_info a span {
     background: var(--colorWhite);
 }
 
-.wsus__banner_text .circle_box {
+.wsus__banner .circle_box {
     position: absolute;
     bottom: 125px;
-    right: -200px;
+    right: 32%;
     width: 200px;
     height: 200px;
 }
 
-.wsus__banner_text .circle_box svg {
+.wsus__banner .circle_box svg {
     font-size: 11px;
     font-weight: 500;
     text-transform: uppercase;
@@ -968,7 +970,7 @@ header .wsus__header_info a span {
     -webkit-animation: rotate_360 linear 25s infinite;
 }
 
-.wsus__banner_text .circle_box::after {
+.wsus__banner .circle_box::after {
     position: absolute;
     content: "";
     width: 75px;
@@ -1188,11 +1190,6 @@ header .wsus__header_info a span {
     -o-transition: all linear .3s;
 }
 
-
-
-
-
-
 /* Category end */
 
 
@@ -1406,6 +1403,7 @@ header .wsus__header_info a span {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
 .wsus__campaign_card .img span {
     position: absolute;
     top: 15px;
@@ -1494,7 +1492,7 @@ header .wsus__header_info a span {
     position: absolute;
     content: "";
     width: 130px;
-        height: 130px;
+    height: 130px;
     background: #fff7de;
     bottom: -60px;
     left: -60px;
@@ -1513,7 +1511,7 @@ header .wsus__header_info a span {
 
 .wsus__service_item:hover:after {
     width: 150px;
-        height: 150px;
+    height: 150px;
 }
 
 .wsus__service_item .icon {
@@ -1660,6 +1658,7 @@ header .wsus__header_info a span {
 }
 
 /* Service end */
+
 /* Counter start */
 .wsus__counter {
     background-position: center !important;
@@ -1786,6 +1785,7 @@ header .wsus__header_info a span {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
 /* event end */
 
 
@@ -1807,7 +1807,6 @@ header .wsus__header_info a span {
     font-size: 90px;
     font-weight: 900;
     text-transform: capitalize;
-    /* text-transform: uppercase; */
     font-family: var(--headingFont);
     color: var(--colorBlack);
     position: relative;
@@ -1836,6 +1835,7 @@ header .wsus__header_info a span {
 }
 
 /* text sloder end */
+
 /* Become volunteer start */
 .wsus__become_volunteer_bg {
     background-position: center !important;
@@ -1923,7 +1923,9 @@ header .wsus__header_info a span {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
 /* Volanteer end */
+
 
 /* faq start */
 .wsus__faq_text .accordion-item {
@@ -1961,6 +1963,7 @@ header .wsus__header_info a span {
 }
 
 /* faq end */
+
 /* brand start */
 .wsus__brand {
     margin-bottom: -7px;
@@ -1977,17 +1980,18 @@ header .wsus__header_info a span {
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
     transition: all linear .3s;
-        -webkit-transition: all linear .3s;
-        -moz-transition: all linear .3s;
-        -ms-transition: all linear .3s;
-        -o-transition: all linear .3s;
-    }
-    
-    .wsus__single_brand:hover {
-        border-color: var(--colorPrimary);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__single_brand:hover {
+    border-color: var(--colorPrimary);
 }
 
 /* brand end */
+
 /* Video and donate start */
 .wsus__video_and_donate {
     background-position: center !important;
@@ -2072,7 +2076,6 @@ header .wsus__header_info a span {
     gap: 10px 10px;
     margin-bottom: 40px;
     margin-top: 0 !important;
-    /* width: 100%; */
 }
 
 .wsus__video_donation_box ul li {
@@ -2131,7 +2134,7 @@ header .wsus__header_info a span {
 }
 
 /* Video and donate end */
-/* testimonial 2 start */
+/* testimonial start */
 .wsus__testimonial_item {
     background: #F7F7F7;
     padding: 40px;
@@ -2204,7 +2207,7 @@ header .wsus__header_info a span {
     right: 50px;
 }
 
-/* testimonial 2 end */
+/* testimonial end */
 /* blog start */
 .wsus__single_blog {
     background: var(--colorWhite);
@@ -2262,7 +2265,9 @@ header .wsus__header_info a span {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
 /* blog end */
+
 
 /* footer start */
 footer {
@@ -3006,14 +3011,6 @@ footer {
     padding-bottom: 0;
 }
 
-/* .wsus__sidebar_blog_tags {
-    margin-top: 35px;
-    background-color: #F7F7F7;
-        border-radius: 20px;
-        padding: 30px;
-}
-
-*/
 .wsus__sidebar_blog_tags h3 {
     margin-bottom: 20px;
     font-size: 32px;
@@ -3080,10 +3077,6 @@ footer {
 /*===========================
     Campaign details start
 ===========================*/
-.wsus__campaign_details {}
-
-.wsus__product_details_img {}
-
 .product_slider_large_item {
     margin: 0px 12px;
     border-radius: 18px;
@@ -3242,6 +3235,7 @@ footer {
 /*===========================
     Campaign details end
 ===========================*/
+
 /*===========================
     Privacy policy start
 ===========================*/
@@ -3310,19 +3304,10 @@ footer {
 /*===========================
     Privacy policy end
 ===========================*/
+
 /*===========================
     Event details start
 ===========================*/
-.wsus__event_details {}
-
-.wsus__event_details_header {}
-
-.wsus__event_details_img {}
-
-.wsus__event_details_text {}
-
-.wsus__event_sidebar {}
-
 .wsus__event_sidebar ul {
     display: flex;
     flex-direction: column;
@@ -3404,7 +3389,6 @@ footer {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
-    /* margin-top: 15px; */
 }
 
 .wsus__contact_info p,
@@ -3455,12 +3439,6 @@ footer {
     font-weight: 500;
     display: block;
     margin-bottom: 5px;
-}
-
-.wsus__contact_input input,
-.wsus__contact_input textarea {
-    /* border: 0; */
-    /* border-radius: 0; */
 }
 
 .wsus__contact_input textarea {
