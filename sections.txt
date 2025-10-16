@@ -12,10 +12,9 @@
 * Partner Section
 * News/Blogs Section
 * Footer
-* What We Do Section/Services
-Testimonials Section
-Success Story Section
-
+* Services/What We Do Section
+* Blog/Success Story Section
+* Testimonials Section
 
 
 * Home
@@ -31,11 +30,21 @@ Success Story Section
 * FAQ
 * Privacy Policy
 * Terms Of Conditions
+Services 
+Service details
 Testimonials
-Success Stories
-Gallery
+Photo Gallery
+Video Gallery
 Donor List
-Donation Page
+Sign In
+Sign Up
+Forgot Password
+
+Dashboard Pages
+Profile
+Profile edit
+All input field 
+
 
 
 

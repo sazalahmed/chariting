@@ -94,6 +94,7 @@ button {
     --colorPrimary: #FFC107;
     --paraColor: #4a505c;
     --colorBlack: #0d2420;
+    --ratingColor: #FFA121;
     --colorWhite: #ffffff;
     --headingFont: "Nunito", sans-serif;
     --paraFont: "Nunito Sans", sans-serif;
@@ -1398,6 +1399,13 @@ header .wsus__header_info a span {
     position: relative;
 }
 
+.wsus__campaign_card:hover .img img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 .wsus__campaign_card .img span {
     position: absolute;
     top: 15px;
@@ -1485,8 +1493,8 @@ header .wsus__header_info a span {
 .wsus__service_item::after {
     position: absolute;
     content: "";
-    width: 150px;
-    height: 150px;
+    width: 130px;
+        height: 130px;
     background: #fff7de;
     bottom: -60px;
     left: -60px;
@@ -1504,8 +1512,8 @@ header .wsus__header_info a span {
 }
 
 .wsus__service_item:hover:after {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+        height: 150px;
 }
 
 .wsus__service_item .icon {
@@ -1522,7 +1530,7 @@ header .wsus__header_info a span {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .wsus__service_item.category_1 .icon {
@@ -1627,8 +1635,8 @@ header .wsus__header_info a span {
 
 .wsus__service_item p {
     text-align: center;
-    margin-bottom: 30px;
     margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .read_btn {
@@ -1710,7 +1718,6 @@ header .wsus__header_info a span {
 /* event start */
 .wssus__event_item {
     position: relative;
-    /* border: 1px solid #000; */
     border-radius: 14px;
     overflow: hidden;
     height: 550px;
@@ -1721,10 +1728,8 @@ header .wsus__header_info a span {
     position: absolute;
     bottom: 0;
     left: 0;
-    /* background: #ddd; */
     width: 100%;
     padding: 25px;
-    /* text-align: center; */
     z-index: 9;
 }
 
@@ -1774,6 +1779,13 @@ header .wsus__header_info a span {
     margin: 25px 12px 0px 12px;
 }
 
+.wssus__event_item:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 /* event end */
 
 
@@ -1883,7 +1895,7 @@ header .wsus__header_info a span {
 }
 
 .wsis__single_volunteer .img {
-    height: 330px;
+    height: 325px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -1895,7 +1907,7 @@ header .wsus__header_info a span {
 .wsis__single_volunteer .text h4 {
     text-align: center;
     text-transform: capitalize;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 800;
     margin-bottom: 5px;
 }
@@ -1904,6 +1916,13 @@ header .wsus__header_info a span {
     text-align: center;
 }
 
+.wsis__single_volunteer:hover .img img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 /* Volanteer end */
 
 /* faq start */
@@ -1951,11 +1970,21 @@ header .wsus__header_info a span {
     border: 1px solid #eee;
     height: 135px;
     margin: 0px 12px;
+    cursor: pointer;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
+    transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    .wsus__single_brand:hover {
+        border-color: var(--colorPrimary);
 }
 
 /* brand end */
@@ -2102,6 +2131,80 @@ header .wsus__header_info a span {
 }
 
 /* Video and donate end */
+/* testimonial 2 start */
+.wsus__testimonial_item {
+    background: #F7F7F7;
+    padding: 40px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.testimonial_slider .wsus__testimonial_item {
+    margin: 25px 12px 0px 12px;
+}
+
+.wsus__testimonial_item .rating {
+    color: var(--ratingColor);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.wsus__testimonial_item .description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.wsus__testimonial_footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wsus__testimonial_footer img {
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 12px;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+.wsus__testimonial_footer h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wsus__testimonial_footer h3 span {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.wsus__testimonial_item::after {
+    position: absolute;
+    content: "";
+    background: url(../images/quot_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+}
+
+/* testimonial 2 end */
 /* blog start */
 .wsus__single_blog {
     background: var(--colorWhite);
@@ -2152,6 +2255,13 @@ header .wsus__header_info a span {
     overflow: hidden;
 }
 
+.wsus__single_blog:hover .img img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 /* blog end */
 
 /* footer start */
