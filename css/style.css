@@ -2506,14 +2506,16 @@ footer {
     Blog details start
 ===========================*/
 .wsus__blog_details_thumb,
-.wsus__event_details_img {
+.wsus__event_details_img,
+.wsus__service_details_img {
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
 }
 
 .wsus__blog_details_header,
-.wsus__event_details_header {
+.wsus__event_details_header,
+.wsus__service_details_header {
     border-bottom: 1px solid #E4E7E9;
     margin-top: 30px;
     padding-bottom: 30px;
@@ -2542,7 +2544,8 @@ footer {
 }
 
 .wsus__blog_details_header h2,
-.wsus__event_details_header h2 {
+.wsus__event_details_header h2,
+.wsus__service_details_header h2 {
     font-size: 48px;
     font-weight: 800;
     line-height: 50px;
@@ -2551,57 +2554,72 @@ footer {
 
 .wsus__blog_details_text h1,
 .wsus__event_details_text h1,
+.wsus__service_details_text h1,
 .wsus__blog_details_text h2,
 .wsus__event_details_text h2,
+.wsus__service_details_text h2,
 .wsus__blog_details_text h3,
 .wsus__event_details_text h3,
+.wsus__service_details_text h3,
 .wsus__blog_details_text h4,
 .wsus__event_details_text h4,
+.wsus__service_details_text h4,
 .wsus__blog_details_text h5,
 .wsus__event_details_text h5,
+.wsus__service_details_text h5,
 .wsus__blog_details_text h6,
-.wsus__event_details_text h6 {
+.wsus__event_details_text h6,
+.wsus__service_details_text h6 {
     font-weight: 800;
     margin-top: 35px;
 }
 
 .wsus__blog_details_text h1,
+.wsus__service_details_text h1,
 .wsus__event_details_text h1 {
     font-size: 38px;
 }
 
 .wsus__blog_details_text h2,
+.wsus__service_details_text h2,
 .wsus__event_details_text h2 {
     font-size: 34px;
 }
 
 .wsus__blog_details_text h3,
+.wsus__service_details_text h3,
 .wsus__event_details_text h3 {
     font-size: 30px;
 }
 
 .wsus__blog_details_text h4,
+.wsus__service_details_text h4,
 .wsus__event_details_text h4 {
     font-size: 26px;
 }
 
 .wsus__blog_details_text h5,
+.wsus__service_details_text h5,
 .wsus__event_details_text h5 {
     font-size: 22px;
 }
 
 .wsus__blog_details_text h6,
+.wsus__service_details_text h6,
 .wsus__event_details_text h6 {
     font-size: 18px;
 }
 
 .wsus__blog_details_text p,
+.wsus__service_details_text p,
 .wsus__event_details_text p {
     margin-top: 20px;
 }
 
 .wsus__blog_details_text ul,
 .wsus__blog_details_text ol,
+.wsus__service_details_text ul,
+.wsus__service_details_text ol,
 .wsus__event_details_text ul,
 .wsus__event_details_text ol {
     display: flex;
@@ -2612,17 +2630,21 @@ footer {
 }
 
 .wsus__blog_details_text ul li,
+.wsus__service_details_text ul li,
 .wsus__event_details_text ul li {
     list-style: disc;
 }
 
 .wsus__blog_details_text ol li,
+.wsus__service_details_text ol li,
 .wsus__event_details_text ol li {
     list-style: auto;
 }
 
 .wsus__blog_details_text ul li,
 .wsus__blog_details_text ol li,
+.wsus__service_details_text ul li,
+.wsus__service_details_text ol li,
 .wsus__event_details_text ul li,
 .wsus__event_details_text ol li {
     font-size: 18px;
@@ -3478,4 +3500,25 @@ footer {
 
 /*===========================
     Contact us end
+===========================*/
+
+
+/*===========================
+    Service details start
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================
+    Service details end
 ===========================*/
