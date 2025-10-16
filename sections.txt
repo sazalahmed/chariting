@@ -36,9 +36,9 @@
 Photo Gallery
 Video Gallery
 Donor List
-Sign In
-Sign Up
-Forgot Password
+*Sign In
+*Sign Up
+*Forgot Password
 
 Dashboard Pages
 Profile

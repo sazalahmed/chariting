@@ -571,6 +571,7 @@ button {
     -ms-border-radius: 50% !important;
     -o-border-radius: 50% !important;
 }
+
 .form-check-input:checked {
     background-color: var(--colorPrimary);
     border-color: var(--colorPrimary);
@@ -746,17 +747,28 @@ header .wsus__header_info a span {
     align-items: center;
 }
 
-.main_menu .menu_right span {
+.main_menu .menu_right .user_icon {
     display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 43px;
+    width: 54px;
+        height: 54px;
+        line-height: 54px;
     background: var(--colorPrimary);
     border-radius: 50%;
-    padding: 0px 10px;
-    margin-right: 10px;
+    padding: 0px 12px;
+        margin-left: 10px;
     cursor: pointer;
     color: var(--colorBlack);
+    position: relative;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    .main_menu .menu_right .user_icon:hover {
+        background: var(--colorWhite);
+        color: var(--colorPrimary);
 }
 
 .main_menu .menu_right .wsus__common_btn:hover {
@@ -778,7 +790,8 @@ header .wsus__header_info a span {
     z-index: 999;
 }
 
-.main_menu .navbar-nav .nav-item .sub_menu {
+.main_menu .navbar-nav .nav-item .sub_menu,
+.main_menu .menu_right .user_icon ul {
     position: absolute;
     top: 120%;
     left: 0;
@@ -791,16 +804,30 @@ header .wsus__header_info a span {
     border-radius: 12px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 250px;
-    opacity: 0cccccccccccccc;
+    opacity: 0;
     visibility: hidden;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+/* max-height: 500px;
+    overflow: hidden;
+    overflow-y: auto; */
 }
 
-.main_menu .navbar-nav .nav-item .sub_menu li a {
+/* .main_menu .menu_right .user_icon ul::-webkit-scrollbar,
+.main_menu .navbar-nav .nav-item .sub_menu::-webkit-scrollbar {
+    display: none;
+}
+
+.main_menu .menu_right .user_icon ul::-webkit-scrollbar-thumb,
+.main_menu .navbar-nav .nav-item .sub_menu::-webkit-scrollbar-thumb {
+    background: var(--paraColor);
+} */
+
+.main_menu .navbar-nav .nav-item .sub_menu li a,
+.main_menu .menu_right .user_icon ul li a {
     font-size: 16px;
     font-weight: 600;
     color: var(--colorBlack);
@@ -808,17 +835,39 @@ header .wsus__header_info a span {
     width: 100%;
 }
 
-.main_menu .navbar-nav .nav-item .sub_menu li a:hover {
+.main_menu .navbar-nav .nav-item .sub_menu li a:hover,
+.main_menu .menu_right .user_icon ul li a:hover {
     color: var(--colorPrimary);
     padding-left: 5px;
 }
 
-.main_menu .navbar-nav .nav-item:hover .sub_menu {
+.main_menu .navbar-nav .nav-item:hover .sub_menu,
+.main_menu .menu_right .user_icon:hover ul {
     opacity: 1;
     visibility: visible;
     top: 100%;
 }
 
+.main_menu .navbar-nav .nav-item .sub_menu::after,
+.main_menu .menu_right .user_icon ul::after {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid var(--colorWhite);
+}
+
+.main_menu .menu_right .user_icon ul {
+    top: 140%;
+}
+
+.main_menu .menu_right .user_icon:hover ul {
+    top: 125%;
+}
 /* main menu end */
 
 
@@ -3519,11 +3568,9 @@ footer {
 .wsus__sign_up {
     margin-right: 210px;
     margin-left: 210px;
-    /* background: #fbf1f1; */
 }
 
 .wsus__sign_up_img {
-    height: 100%;
     background: #fbf1f1;
     border-radius: 20px;
     overflow: hidden;
