@@ -748,6 +748,13 @@ header .wsus__header_info a span {
 }
 
 .main_menu .menu_right .user_icon {
+    height: 80px;
+        line-height: 80px;
+        position: relative;
+        margin-left: 10px;
+    }
+    
+    .main_menu .menu_right .user_icon svg {
     display: inline-block;
     width: 54px;
     height: 54px;
@@ -755,20 +762,17 @@ header .wsus__header_info a span {
     background: var(--colorPrimary);
     border-radius: 50%;
     padding: 0px 12px;
-    margin-left: 10px;
     cursor: pointer;
     color: var(--colorBlack);
-    position: relative;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
-        -moz-transition: all linear .3s;
+    -moz-transition: all linear .3s;
         -ms-transition: all linear .3s;
         -o-transition: all linear .3s;
     }
-    
-    .main_menu .menu_right .user_icon:hover {
-        background: var(--colorWhite);
-        color: var(--colorPrimary);
+.main_menu .menu_right .user_icon:hover svg {
+    background: var(--colorWhite);
+    color: var(--colorPrimary);
 }
 
 .main_menu .menu_right .wsus__common_btn:hover {
@@ -811,20 +815,7 @@ header .wsus__header_info a span {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-    /* max-height: 500px;
-    overflow: hidden;
-    overflow-y: auto; */
 }
-
-/* .main_menu .menu_right .user_icon ul::-webkit-scrollbar,
-.main_menu .navbar-nav .nav-item .sub_menu::-webkit-scrollbar {
-    display: none;
-}
-
-.main_menu .menu_right .user_icon ul::-webkit-scrollbar-thumb,
-.main_menu .navbar-nav .nav-item .sub_menu::-webkit-scrollbar-thumb {
-    background: var(--paraColor);
-} */
 
 .main_menu .navbar-nav .nav-item .sub_menu li a,
 .main_menu .menu_right .user_icon ul li a {
@@ -859,14 +850,6 @@ header .wsus__header_info a span {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 12px solid var(--colorWhite);
-}
-
-.main_menu .menu_right .user_icon ul {
-    top: 140%;
-}
-
-.main_menu .menu_right .user_icon:hover ul {
-    top: 125%;
 }
 
 /* main menu end */
@@ -3807,4 +3790,56 @@ footer {
 
 /*===========================
    Photo gallery end
+===========================*/
+/*===========================
+   Donor list start
+===========================*/
+.wsus__donor_list_item {
+    padding: 20px 20px 20px 130px;
+    position: relative;
+    border-radius: 16px;
+    margin-top: 25px;
+    border: 1px dashed #ddd;
+}
+
+.wsus__donor_list_item .pay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.wsus__donor_list_item h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.wsus__donor_list_item p {
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-style: italic;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/*===========================
+   Donor list end
 ===========================*/

@@ -33,12 +33,12 @@
 * Services 
 * Service details
 * Testimonials
-Photo Gallery
-Video Gallery
-Donor List
-*Sign In
-*Sign Up
-*Forgot Password
+* Photo Gallery
+* Video Gallery
+* Donor List
+* Sign In
+* Sign Up
+* Forgot Password
 
 Dashboard Pages
 Profile
