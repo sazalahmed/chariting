@@ -1,7 +1,6 @@
 /*================================
     GLOBAL CSS START 
 ================================*/
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {
@@ -78,6 +77,10 @@ textarea {
     font-size: 16px;
     font-weight: 500;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
 
 input::placeholder,
@@ -88,6 +91,10 @@ textarea::placeholder {
 button {
     border: none;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
 }
 
 :root {
@@ -173,7 +180,6 @@ button {
 .wsus__common_btn {
     padding: 17px 38px 16px 25px;
     background: var(--colorPrimary);
-    border-radius: 30px;
     color: var(--colorBlack);
     text-transform: uppercase;
     font-size: 14px;
@@ -181,6 +187,11 @@ button {
     position: relative;
     z-index: 2;
     overflow: hidden;
+    border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
 
 .wsus__common_btn::after {
@@ -241,6 +252,10 @@ button {
 .wsus__common_btn:hover::before {
     height: 100%;
     border-radius: 0;
+    -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
 }
 
 .play_btn {
@@ -248,12 +263,16 @@ button {
     height: 80px;
     background: var(--colorPrimary);
     line-height: 84px;
-    border-radius: 50%;
     text-align: center;
     color: var(--colorBlack);
     font-size: 24px;
     position: relative;
     z-index: 9;
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .play_btn::after {
@@ -544,13 +563,17 @@ button {
     text-align: center;
     padding: 0 !important;
     border: 1px solid #eee;
-    border-radius: 50% !important;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     box-shadow: none !important;
+    border-radius: 50% !important;
+        -webkit-border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        -ms-border-radius: 50% !important;
+        -o-border-radius: 50% !important;
 }
 
 .wsus__pagination ul li a:hover,
@@ -750,7 +773,7 @@ header .wsus__header_info a span {
 .main_menu .menu_right .user_icon {
     height: 80px;
     line-height: 80px;
-        position: relative;
+    position: relative;
         margin-left: 10px;
     }
     
@@ -760,7 +783,6 @@ header .wsus__header_info a span {
     height: 54px;
     line-height: 54px;
     background: var(--colorPrimary);
-    border-radius: 50%;
     padding: 0px 12px;
     cursor: pointer;
     color: var(--colorBlack);
@@ -768,8 +790,13 @@ header .wsus__header_info a span {
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
-        -o-transition: all linear .3s;
-    }
+    -o-transition: all linear .3s;
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
 
 .main_menu .menu_right .user_icon:hover svg {
     background: var(--colorWhite);
@@ -806,7 +833,6 @@ header .wsus__header_info a span {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border-radius: 12px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 250px;
     opacity: 0;
@@ -816,6 +842,11 @@ header .wsus__header_info a span {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
 }
 
 .main_menu .navbar-nav .nav-item .sub_menu li a,
@@ -966,8 +997,16 @@ header .wsus__header_info a span {
     background: var(--colorPrimary);
     left: 55px;
     top: 50%;
-    transform: translateY(-50%);
     border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
 }
 
 .wsus__banner_text h1 {
@@ -1163,12 +1202,12 @@ header .wsus__header_info a span {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    position: relative;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    position: relative;
 }
 
 .wsus__category_item .img img {
@@ -1289,9 +1328,13 @@ header .wsus__header_info a span {
     width: 70px;
     height: 70px;
     background: #ddd;
-    border-radius: 10px;
     padding: 12px;
     position: relative;
+    border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
 
 .wsus_about_us_text ul li .icon::after {
@@ -1302,8 +1345,8 @@ header .wsus__header_info a span {
     border: 1px solid var(--colorPrimary);
     top: -7px;
     right: -7px;
-    border-radius: 8px;
     z-index: -2;
+    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
@@ -1356,18 +1399,26 @@ header .wsus__header_info a span {
     padding: 15px;
     padding-left: 100px;
     border-radius: 50px;
+    -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .wsus_about_us_text .wsus__about_founder .img {
     width: 70px;
     height: 70px;
-    border-radius: 50%;
     overflow: hidden;
     border: 2px solid var(--colorWhite);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: absolute;
     top: 8px;
     left: 10px;
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .wsus_about_us_text .wsus__about_founder h3 {
@@ -1422,22 +1473,34 @@ header .wsus__header_info a span {
     left: 5%;
     z-index: 1;
     border-radius: 50px;
+    -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .wsus__campaign_card {
     background: var(--colorWhite);
     padding: 10px;
-    border-radius: 14px;
     margin-top: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
 }
 
 .wsus__campaign_card .img {
     display: block;
     height: 250px;
-    border-radius: 10px;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
 
 .wsus__campaign_card:hover .img img {
@@ -1457,8 +1520,12 @@ header .wsus__header_info a span {
     font-size: 14px;
     font-weight: 600;
     padding: 5px 15px;
-    border-radius: 30px;
     text-transform: capitalize;
+    border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
 
 .wsus__campaign_card .text {
@@ -1471,17 +1538,25 @@ header .wsus__header_info a span {
 
 .barfiller {
     border: none;
-    border-radius: 50px;
     box-shadow: none;
     background: #eee;
     margin-bottom: 5px;
     margin-top: 4px;
+    border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .barfiller .tipWrap .tip {
-    border-radius: 15px;
     padding: 2px 10px;
     font-size: 12px;
+    border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
 }
 
 .barfiller .tipWrap .tip:after {
@@ -1489,8 +1564,12 @@ header .wsus__header_info a span {
 }
 
 .barfiller .fill {
-    border-radius: 50px;
     background: var(--colorPrimary) !important;
+    border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .rising_goal {
@@ -1513,7 +1592,6 @@ header .wsus__header_info a span {
 
 /* Services start */
 .wsus__service_item {
-    border-radius: 12px;
     padding: 30px;
     text-align: center;
     margin-top: 25px;
@@ -1526,6 +1604,11 @@ header .wsus__header_info a span {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
 }
 
 .service_slider .wsus__service_item {
@@ -1565,7 +1648,6 @@ header .wsus__header_info a span {
     margin: 0 auto;
     padding: 15px;
     color: var(--colorWhite);
-    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
     background: red;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -1573,6 +1655,11 @@ header .wsus__header_info a span {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     margin-bottom: 35px;
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+        -webkit-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+        -moz-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+        -ms-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+        -o-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
 }
 
 .wsus__service_item.category_1 .icon {
@@ -1723,11 +1810,15 @@ header .wsus__header_info a span {
     width: 65px;
     height: 65px;
     border: 1px solid var(--colorPrimary);
-    border-radius: 50%;
     padding: 15px;
     color: var(--colorPrimary);
     margin: 0 auto;
     margin-bottom: 25px;
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .wsus__counter_item h3,
@@ -1761,10 +1852,14 @@ header .wsus__header_info a span {
 /* event start */
 .wssus__event_item {
     position: relative;
-    border-radius: 14px;
     overflow: hidden;
     height: 550px;
     margin-top: 25px;
+    border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
 }
 
 .wssus__event_item .text {
@@ -1789,6 +1884,10 @@ header .wsus__header_info a span {
     bottom: -140px;
     z-index: -1;
     transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
 }
 
 .wssus__event_item .text ul {
@@ -1870,6 +1969,10 @@ header .wsus__header_info a span {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
 }
 
 .wsus__text_slider .marquee_animi ul li:nth-child(2n) {
@@ -1887,6 +1990,10 @@ header .wsus__header_info a span {
     background-size: cover !important;
     padding: 100px;
     border-radius: 35px;
+    -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
 }
 
 .wsus__become_volunteer_text {
@@ -1927,11 +2034,15 @@ header .wsus__header_info a span {
 
 .wsis__single_volunteer {
     background: var(--colorWhite);
-    border-radius: 16px;
     overflow: hidden;
     padding: 10px;
     margin-top: 25px;
     border: 1px solid #ebebeb;
+    border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
 }
 
 .volunteer_slider .wsis__single_volunteer {
@@ -1940,8 +2051,12 @@ header .wsus__header_info a span {
 
 .wsis__single_volunteer .img {
     height: 325px;
-    border-radius: 10px;
     overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
 
 .wsis__single_volunteer .text {
@@ -1975,9 +2090,13 @@ header .wsus__header_info a span {
 .wsus__faq_text .accordion-item {
     margin-top: 15px;
     border: 1px solid #eee;
-    border-radius: 12px;
     overflow: hidden;
     box-shadow: none;
+    border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
 }
 
 .wsus__faq_text .accordion-header button {
@@ -2036,6 +2155,7 @@ header .wsus__header_info a span {
 
 /* brand end */
 
+
 /* Video and donate start */
 .wsus__video_and_donate {
     background-position: center !important;
@@ -2049,10 +2169,14 @@ header .wsus__header_info a span {
 
 .wsus__video_donate_text_top {
     background: var(--colorWhite);
-    border-radius: 35px;
     position: relative;
     top: -150px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 35px;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
 }
 
 .wsus__video_donate_text {
@@ -2083,7 +2207,6 @@ header .wsus__header_info a span {
 }
 
 .wsus__video_donation_box input {
-    border-radius: 50px;
     background: #fdf8e9;
     border: 1px solid #eee;
     padding: 10px 25px 11px 65px;
@@ -2092,6 +2215,11 @@ header .wsus__header_info a span {
     font-size: 26px;
     margin-top: 10px;
     margin-bottom: 15px;
+    border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .wsus__video_donation_box .input_box span {
@@ -2107,6 +2235,10 @@ header .wsus__header_info a span {
     font-weight: 800;
     font-size: 24px;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .wsus__video_donation_box input::placeholder {
@@ -2125,7 +2257,6 @@ header .wsus__header_info a span {
 .wsus__video_donation_box ul li {
     background: #f5f5f5;
     padding: 10px 22px;
-    border-radius: 50px;
     color: var(--colorBlack);
     font-size: 16px;
     font-weight: 700 !important;
@@ -2136,6 +2267,11 @@ header .wsus__header_info a span {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     text-transform: capitalize;
+    border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .wsus__video_donation_box ul li.active {
@@ -2144,10 +2280,14 @@ header .wsus__header_info a span {
 }
 
 .wsus__video_donate_img {
-    border-radius: 25px;
     overflow: hidden;
     height: 550px;
     margin: 15px 15px 15px 0px;
+    border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
 }
 
 .wsus__video_donate_bottom {
@@ -2178,6 +2318,7 @@ header .wsus__header_info a span {
 }
 
 /* Video and donate end */
+
 /* testimonial start */
 .wsus__testimonial_item {
     background: #F7F7F7;
@@ -2252,21 +2393,30 @@ header .wsus__header_info a span {
 }
 
 /* testimonial end */
+
 /* blog start */
 .wsus__single_blog {
     background: var(--colorWhite);
     padding: 10px;
-    border-radius: 14px;
     margin-top: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
 }
 
 .wsus__single_blog .img {
     display: block;
     height: 300px;
-    border-radius: 10px;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
 
 .wsus__single_blog .text {
@@ -2351,9 +2501,13 @@ footer {
     flex-direction: column;
     background: #ffffff21;
     padding: 10px 30px 10px 10px;
-    border-radius: 50px;
     position: relative;
     padding-left: 75px;
+    border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .wsus__footer_top ul li .icon {
@@ -2448,6 +2602,10 @@ footer {
     left: 0px;
     color: var(--colorPrimary);
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .wsus__footer_newsletter form {
@@ -2457,11 +2615,15 @@ footer {
 .wsus__footer_newsletter form input {
     background: #ffffff21;
     border: none;
-    border-radius: 50px;
     padding: 15px 55px 15px 30px;
     color: var(--colorPrimary);
     font-size: 16px;
     font-weight: 400;
+    border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .wsus__footer_newsletter form input::placeholder {
@@ -2472,14 +2634,22 @@ footer {
     position: absolute;
     top: 50%;
     right: 6px;
-    transform: translateY(-50%);
     width: 42px;
     height: 42px;
     line-height: 42px;
     text-align: center;
-    border-radius: 50%;
     background: var(--colorPrimary);
     color: var(--colorBlack);
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
 }
 
 .wsus__footer_newsletter form button:hover {
@@ -2553,8 +2723,12 @@ footer {
 .wsus__event_details_img,
 .wsus__service_details_img {
     height: 500px;
-    border-radius: 20px;
     overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
 }
 
 .wsus__blog_details_header,
@@ -2705,6 +2879,10 @@ footer {
     margin-bottom: 40px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 16px;
+    -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
 }
 
 .details_quot_text::after {
@@ -2765,6 +2943,10 @@ footer {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
 
 .wsus__blog_det_tags_share .tags li a:hover {
@@ -2780,12 +2962,12 @@ footer {
     line-height: 40px;
     text-align: center;
     border: 1px solid #E4E7E9;
-    border-radius: 50%;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -2806,6 +2988,10 @@ footer {
     margin-top: 60px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 16px;
+    -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
 }
 
 .wsus__blog_det_author .img {
@@ -2813,6 +2999,10 @@ footer {
     height: 245px;
     overflow: hidden;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
 
 .wsus__blog_det_author .text {
@@ -2849,12 +3039,12 @@ footer {
 .wsus__blog_det_author .text ul li a {
     font-size: 16px;
     color: var(--paraColor);
-    border-radius: 50%;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -2884,6 +3074,10 @@ footer {
     height: 70px;
     overflow: hidden;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .wsus__blog_single_comment .text {
@@ -2940,10 +3134,14 @@ footer {
 .wsus__blog_comment_input_area .form-check input {
     padding: 0;
     margin-top: 0px;
-    border-radius: 50%;
     width: 20px;
     height: 20px;
     margin-right: 5px;
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .wsus__blog_comment_input_area .form-check label {
@@ -2963,6 +3161,10 @@ footer {
     margin-top: 30px;
     background-color: #F7F7F7;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
 }
 
 .wsus__event_sidebar h3,
@@ -2988,8 +3190,12 @@ footer {
 .wsus__sidebar_recent_post ul li .img {
     width: 110px;
     height: 80px;
-    border-radius: 8px;
     overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
 }
 
 .wsus__sidebar_recent_post ul li .text {
@@ -3095,6 +3301,10 @@ footer {
     font-weight: 600;
     padding: 5px 20px;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
 
 .wsus__sidebar_blog_tags ul li a:hover {
@@ -3145,18 +3355,26 @@ footer {
 ===========================*/
 .product_slider_large_item {
     margin: 0px 12px;
-    border-radius: 18px;
     overflow: hidden;
     height: 510px;
     margin-bottom: 12px;
+    border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
 }
 
 .product_slider_small_item {
     margin: 0px 12px;
-    border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
     height: 70px;
+    border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
 
 .wsus__campaign_details_text {
@@ -3266,8 +3484,12 @@ footer {
 
 .wsus__campaign_details_videos {
     height: 730px;
-    border-radius: 30px;
     overflow: hidden;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
 
 .wsus__campaign_details_videos iframe {
@@ -3286,6 +3508,10 @@ footer {
     font-weight: 800;
     padding: 10px 30px;
     border-radius: 50px;
+    -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .wsus__campaign_details .nav .nav-item button.active {
@@ -3415,6 +3641,10 @@ footer {
     height: 350px;
     border: 2px solid var(--colorWhite) !important;
     border-radius: 18px;
+    -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
 }
 
 /*===========================
@@ -3429,8 +3659,12 @@ footer {
     background: #F7F7F7;
     padding: 40px 40px 40px 115px;
     margin-bottom: 25px;
-    border-radius: 16px;
     position: relative;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
 }
 
 .wsus__contact_info span {
@@ -3438,8 +3672,8 @@ footer {
     height: 60px;
     background: var(--colorPrimary);
     color: var(--colorBlack);
-    border-radius: 50%;
     display: block;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -3449,6 +3683,10 @@ footer {
     left: 40px;
     top: 50%;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
 }
 
 .wsus__contact_info h3 {
@@ -3478,6 +3716,10 @@ footer {
     background: #F7F7F7;
     padding: 50px;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
 
 .wsus__contact_form form h3 {
@@ -3490,9 +3732,13 @@ footer {
 .wsus__contact_img {
     height: 590px;
     background: var(--colorWhite);
-    border-radius: 16px;
     overflow: hidden;
     margin-left: 30px;
+    border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
 }
 
 .wsus__contact_input {
@@ -3517,11 +3763,15 @@ footer {
 
 .wsus__contact_input .form-check input {
     padding: 0;
-    border-radius: 50%;
     width: 20px;
     height: 20px;
     margin-top: 1px;
     margin-right: 8px;
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .wsus__contact_input .form-check label {
@@ -3532,9 +3782,13 @@ footer {
 
 .contact_map {
     height: 570px;
-    border-radius: 31px;
     overflow: hidden;
     border: 1px solid #eee;
+    border-radius: 31px;
+        -webkit-border-radius: 31px;
+        -moz-border-radius: 31px;
+        -ms-border-radius: 31px;
+        -o-border-radius: 31px;
 }
 
 .contact_map iframe {
@@ -3548,7 +3802,7 @@ footer {
 
 
 /*===========================
-                Sign in start
+        Sign in start
 ===========================*/
 .wsus__sign_up {
     margin-right: 210px;
@@ -3557,19 +3811,27 @@ footer {
 
 .wsus__sign_up_img {
     background: #fbf1f1;
-    border-radius: 20px;
     overflow: hidden;
     height: 770px;
+    border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
 }
 
 .wsus__sign_up_contant {
     padding: 70px;
     background: #fbf1f1;
-    border-radius: 20px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
 }
 
 .wsus__sign_up_contant h2 {
@@ -3679,6 +3941,10 @@ footer {
     text-transform: capitalize;
     margin-top: 18px;
     border-radius: 50px;
+    -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
 
 .wsus__sign_up_others_option:hover {
@@ -3714,7 +3980,7 @@ footer {
 ===========================*/
 
 /*===========================
-                Photo gallery start
+        Photo gallery start
 ===========================*/
 .wsus__gallery_item {
     position: relative;
@@ -3759,8 +4025,12 @@ footer {
     width: 70px;
     height: 70px;
     background: var(--colorWhite);
-    border-radius: 50% 0 50% 50%;
     z-index: 2;
+    border-radius: 50% 0 50% 50%;
+    -webkit-border-radius: 50% 0 50% 50%;
+        -moz-border-radius: 50% 0 50% 50%;
+        -ms-border-radius: 50% 0 50% 50%;
+        -o-border-radius: 50% 0 50% 50%;
 }
 
 .wsus__gallery_item span {
@@ -3769,12 +4039,16 @@ footer {
     height: 60px;
     background: var(--colorPrimary);
     color: var(--colorBlack);
-    border-radius: 50%;
     padding: 15px;
     position: absolute;
     top: 0px;
     right: 0;
     z-index: 3;
+    border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
 .wsus__gallery_item_overlay:hover img {
@@ -3792,15 +4066,20 @@ footer {
 /*===========================
    Photo gallery end
 ===========================*/
+
 /*===========================
    Donor list start
 ===========================*/
 .wsus__donor_list_item {
     padding: 20px 20px 20px 130px;
     position: relative;
-    border-radius: 16px;
     margin-top: 25px;
     border: 1px dashed #ddd;
+    border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
 }
 
 .wsus__donor_list_item .pay {
@@ -3818,6 +4097,10 @@ footer {
     font-size: 20px;
     font-weight: 800;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
 
 .wsus__donor_list_item h3 {
@@ -3844,6 +4127,7 @@ footer {
 /*===========================
    Donor list end
 ===========================*/
+
 /*===========================
    Dashboard start
 ===========================*/
@@ -3855,11 +4139,14 @@ footer {
 .wsus__dashboard_sidebar_top {
     padding: 60px 20px 20px 20px;
     background: var(--colorWhite);
-    /* box-shadow: 0px 3px 3px 0px rgba(23, 23, 24, 0.10); */
     position: relative;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 16px;
     overflow: hidden;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
 }
 
 .wsus__dashboard_sidebar_top .dashboard_banner {
@@ -3898,11 +4185,14 @@ footer {
 
 .wsus__dashboard_sidebar_menu {
     margin-top: 20px;
-    /* border: 1px solid #eeeeee; */
-    border-radius: 12px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
 }
 
 .wsus__dashboard_sidebar_menu li a {
@@ -3921,10 +4211,10 @@ footer {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     border-radius: 30px;
-}
-
-.wsus__dashboard_sidebar_menu li:last-child a {
-    /* border-bottom: none; */
+    -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
 
 .wsus__dashboard_sidebar_menu li a:hover,
@@ -3936,15 +4226,11 @@ footer {
 
 .wsus__dashboard_sidebar_menu li a .icon {
     width: 20px;
-    /* height: 15px; */
     margin-right: 10px;
     position: relative;
     top: -2px;
     left: 0;
 }
-
-.wsus__dashboard_sidebar_menu li a:hover .icon,
-.wsus__dashboard_sidebar_menu li a.active .icon {}
 
 /* dashboard sidebar start */
 
@@ -3953,9 +4239,12 @@ footer {
 .wsus__dashboard_contant {
     margin-top: 30px;
     background: var(--colorWhite);
-    /* box-shadow: 0px 3px 3px 0px rgba(23, 23, 24, 0.10); */
     border: 1px solid #eeeeee;
     border-radius: 16px;
+    -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
 }
 
 .wsus__dashboard_contant_top {
@@ -3979,7 +4268,6 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     padding: 25px 30px 30px 30px;
-    /* border-bottom: 1px solid #1e1e2f1a; */
 }
 
 .wsus__dashboard_profile .img {
@@ -4041,11 +4329,11 @@ footer {
     right: -11px;
     font-size: 13px;
     cursor: pointer;
-    transition: all linear.3s;
     background: var(--colorWhite);
     color: var(--colorBlack);
     padding: 5px;
     border: 1px solid #1e1e2f1a;
+    transition: all linear.3s;
     -webkit-transition: all linear.3s;
     -moz-transition: all linear.3s;
     -ms-transition: all linear.3s;
@@ -4079,7 +4367,6 @@ footer {
 
 .wsus__dashboard_profile_update_info input,
 .wsus__dashboard_profile_update_info textarea {
-    /* margin-top: 5px; */
     border: 1px solid #eee;
 }
 
@@ -4184,10 +4471,13 @@ footer {
 
 .wsus__dashboard_profile_update_info .select2-container--default .select2-selection--single {
     border: 1px solid #eee;
-    border-radius: 30px;
     height: 50px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
 }
-
 
 .wsus__dashboard_profile_update_info .select2-container {
     width: 100% !important;

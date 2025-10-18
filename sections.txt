@@ -39,8 +39,6 @@
 * Sign In
 * Sign Up
 * Forgot Password
-
-Dashboard Pages
 * Profile
 * Profile Edit
 * Change Password
