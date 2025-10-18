@@ -426,7 +426,10 @@ $(function () {
     });
 
 
-
+    // select 2 js
+    $(document).ready(function () {
+        $('.select_2').select2();
+    });
 
 
 

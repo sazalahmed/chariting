@@ -41,9 +41,10 @@
 * Forgot Password
 
 Dashboard Pages
-Profile
-Profile edit
-All input field 
+* Profile
+* Profile Edit
+* Change Password
+
 
 
 
