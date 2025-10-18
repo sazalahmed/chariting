@@ -219,8 +219,6 @@
     bottom: 0;
     overflow-x: hidden;
     overflow-y: scroll;
-    overflow-scrolling: touch;
-    -webkit-overflow-scrolling: touch;
     z-index: 20;
     max-height: 100%
 }
@@ -262,8 +260,11 @@ img.vbox-figlio {
 }
 
 .vbox-animated {
-    webkit-transition: margin .3s ease-out;
-    transition: margin .3s ease-out
+    transition: margin .3s ease-out;
+    -webkit-transition: margin .3s ease-out;
+    -moz-transition: margin .3s ease-out;
+    -ms-transition: margin .3s ease-out;
+    -o-transition: margin .3s ease-out;
 }
 
 .sk-double-bounce,
