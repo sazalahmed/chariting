@@ -2409,7 +2409,7 @@ footer {
     color: var(--colorWhite);
     text-transform: capitalize;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     opacity: .8;
 }
@@ -2434,7 +2434,7 @@ footer {
     align-items: center;
     position: relative;
     padding-left: 40px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: var(--colorWhite);
     opacity: .8;
@@ -2460,7 +2460,7 @@ footer {
     border-radius: 50px;
     padding: 15px 55px 15px 30px;
     color: var(--colorPrimary);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -2517,7 +2517,7 @@ footer {
 }
 
 .wsus__footer_botton_text p {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--colorWhite);
     opacity: .8;
 }
@@ -2530,7 +2530,7 @@ footer {
 }
 
 .wsus__footer_botton_text ul li a {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--colorWhite);
     opacity: .8;
 }
