@@ -929,8 +929,6 @@ header .wsus__header_info a span {
 }
 
 .wsus__banner_overlay {
-    background: #000000b5;
-    background: #000;
     background: linear-gradient(90deg, rgb(0 0 0 / 80%) 0%, rgb(0 0 0 / 62%) 58%, rgb(0 0 0 / 27%) 89%);
 }
 
@@ -4502,3 +4500,14 @@ footer {
 /*===========================
    Dashboard end
 ===========================*/
+.main_menu .navbar-toggler {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+    box-shadow: none;
+}

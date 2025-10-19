@@ -1,60 +1,45 @@
 @media (min-width: 1200px) and (max-width: 1399.99px) {
-    
-      
- 
-  
 }
-
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    
-      
- 
-  
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-    
-      
- 
-  
 }
-
-
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-    
-      
- 
-  
 }
-
-
-
-
 
 @media (max-width: 575.99px) {
-    
-      
- 
-  
+  /* Home page start */
+  .wsus__header_right {
+    justify-content: center;
+  }
+
+  .main_menu .navbar-nav {
+    line-height: initial;
+    gap: 20px;
+  }
+
+  .wsus__banner {
+    height: auto;
+  }
+
+  .wsus__banner_text h1 {
+    font-size: 42px;
+  }
+
+  .wsus__banner_overlay {
+    padding: 100px 0px;
+  }
+
+  .wsus__banner_text h5 {
+    font-size: 20px;
+  }
+
+  .wsus__banner::after {
+    display: none;
+  }
+
+  /* Home page end */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
