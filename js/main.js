@@ -49,7 +49,7 @@ $(function () {
     // Category Slider
     $('.category_slider').slick({
         slidesToShow: 6,
-        slidesToScroll: 1,
+        slidesToScroll: 6,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
@@ -65,19 +65,22 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 }
             }
         ]
@@ -106,7 +109,7 @@ $(function () {
     // Service Slider
     $('.service_slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
@@ -123,6 +126,7 @@ $(function () {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 2,
                 }
             },
             {
@@ -135,13 +139,14 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             }
         ]
     });
 
 
-    // event slider
+    // Marquee animi
     $('.marquee_animi').marquee({
         speed: 50,
         gap: 25,
@@ -156,7 +161,7 @@ $(function () {
     // Event Slider
     $('.event_slider').slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
@@ -178,13 +183,15 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             }
         ]
@@ -194,7 +201,7 @@ $(function () {
     // volunteer slider Slider
     $('.volunteer_slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
@@ -217,12 +224,14 @@ $(function () {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 2,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             }
         ]
@@ -233,7 +242,7 @@ $(function () {
     // brand Slider
     $('.brand_slider').slick({
         slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToScroll: 5,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: false,
@@ -251,19 +260,25 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 2,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    arrows: false,
                 }
             }
         ]
@@ -391,7 +406,7 @@ $(function () {
     // testiminial Slider
     $('.testimonial_slider').slick({
         slidesToShow: 2,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
@@ -407,19 +422,22 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             }
         ]

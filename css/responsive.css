@@ -1,44 +1,675 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-}
+@media (min-width: 1200px) and (max-width: 1399.99px) {}
 
-@media (min-width: 992px) and (max-width: 1199.99px) {
-}
+@media (min-width: 992px) and (max-width: 1199.99px) {}
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-}
 
-@media (min-width: 576px) and (max-width: 767.99px) {
-}
-
-@media (max-width: 575.99px) {
   /* Home page start */
   .wsus__header_right {
     justify-content: center;
   }
 
+  .main_menu {
+    top: 37px;
+  }
+
+  .main_menu .navbar-collapse {
+    margin-top: 13px;
+  }
+
+  .main_menu .container {
+    padding: 14px 0px;
+    max-width: 100%;
+  }
+
+  .main_menu .menu_right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--colorBlack);
+    padding: 15px 15px 20px 15px;
+    border-top: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
+  }
+
   .main_menu .navbar-nav {
     line-height: initial;
     gap: 20px;
+    background: var(--colorBlack);
+    padding: 30px 15px;
+    border-top: 1px solid #3f3f3f;
+  }
+
+  .main_menu .navbar-brand {
+    margin-left: 12px;
+  }
+
+  .main_menu .navbar-toggler {
+    margin-right: 12px;
+  }
+
+  .main_menu .navbar-nav .nav-item:hover .sub_menu {
+    top: 150%;
+  }
+
+  .main_menu .menu_right .user_icon ul {
+    display: none;
+  }
+
+  .wsus__banner_text h1 {
+    font-size: 58px;
+  }
+
+  .wsus__banner .slick-dots {
+    right: 20px;
+  }
+
+  .wsus__banner_text {
+    padding-right: 70px;
+  }
+
+  .wsus__banner_text p {
+    max-width: 100%;
+  }
+
+  .wsus__banner .circle_box,
+  .wsus__banner::after,
+  .wsus__banner::before {
+    display: none;
+  }
+
+  .section_heading h2 {
+    font-size: 42px;
+  }
+
+  .wsus__category_item .img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .wsus__about_us_img {
+    height: 745px;
+    margin-bottom: 50px;
+  }
+
+  .wsus_about_us_text {
+    padding-left: 0;
+  }
+
+  .wsus__video_donate_text h2 {
+    font-size: 26px;
+  }
+
+  .wsus__video_donate_text {
+    padding: 40px;
+  }
+
+  .wsus__video_donate_img {
+    height: 590px;
+    margin: 0px 15px 15px 15px;
+  }
+
+  .wsus__single_brand {
+    height: 115px;
+  }
+
+  .wsus__campaign::after {
+    width: 100%;
+    height: 400px;
+    left: 0;
+    border-radius: 25px;
+  }
+
+  .wsus__campaign_card .img {
+    height: 200px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .wsus__counter_item {
+    border-right: 0;
+    margin: 25px 0px;
+  }
+
+  .wssus__event_item {
+    height: 445px;
+  }
+
+  .wsus__text_slider .marquee_animi ul li {
+    font-size: 74px;
+  }
+
+  .wsus__become_volunteer_bg {
+    padding: 50px;
+  }
+
+  .wsus__become_volunteer_text h2 {
+    font-size: 44px;
+  }
+
+  .wsis__single_volunteer .img {
+    height: 365px;
+  }
+
+  .wsus__faq_img {
+    height: 730px;
+    margin-bottom: 25px;
+  }
+
+  .wsus__faq_text .accordion-body p {
+    font-size: 16px;
+  }
+
+  .wsus__single_blog .img {
+    height: 245px;
+  }
+
+  .wsus__footer_top ul {
+    display: none;
+  }
+
+  .wsus__footer_top {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .wsus__footer_link,
+  .wsus__footer_contact,
+  .wsus__footer_newsletter {
+    margin-top: 50px;
+  }
+
+  .wsus__footer_botton_text p {
+    /* margin-bottom: 15px; */
+  }
+
+  .wsus__banner_slider_item::after {
+    width: 120px;
+    height: 120px;
+  }
+
+  .wsus__category_item .img::after {
+    width: 160px;
+    height: 160px;
+  }
+
+  .wsus__service_item {
+    /* padding: 30px 15px; */
+  }
+
+  .wsus__service_item p {
+    /* font-size: 14px; */
+  }
+
+  /* Home page end */
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+  /* Home page start */
+  .wsus__header_right {
+    justify-content: center;
+  }
+
+  .main_menu {
+    top: 37px;
+  }
+
+  .main_menu .navbar-collapse {
+    margin-top: 13px;
+  }
+
+  .main_menu .container {
+    padding: 14px 0px;
+    max-width: 100%;
+  }
+
+  .main_menu .menu_right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--colorBlack);
+    padding: 15px 15px 20px 15px;
+    border-top: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
+  }
+
+  .main_menu .navbar-nav {
+    line-height: initial;
+    gap: 20px;
+    background: var(--colorBlack);
+    padding: 30px 15px;
+    border-top: 1px solid #3f3f3f;
+  }
+
+  .main_menu .navbar-brand {
+    margin-left: 12px;
+  }
+
+  .main_menu .navbar-toggler {
+    margin-right: 12px;
+  }
+
+  .main_menu .navbar-nav .nav-item:hover .sub_menu {
+    top: 150%;
+  }
+
+  .main_menu .menu_right .user_icon ul {
+    display: none;
+  }
+
+  .wsus__banner_text {
+    padding-right: 50px;
+  }
+
+  .wsus__banner_text h1 {
+    font-size: 44px;
+  }
+
+  .wsus__banner .slick-dots {
+    right: 20px;
+  }
+
+  .wsus__banner_text p {
+    max-width: 100%;
+  }
+
+  .wsus__banner .circle_box,
+  .wsus__banner::after,
+  .wsus__banner::before {
+    display: none;
+  }
+
+  .section_heading h2 {
+    font-size: 32px;
+  }
+
+  .wsus__category_item .img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .wsus__about_us_img {
+    height: 552px;
+    margin-bottom: 50px;
+  }
+
+  .wsus_about_us_text {
+    padding-left: 0;
+  }
+
+  .wsus__video_donate_text h2 {
+    font-size: 26px;
+  }
+
+  .wsus__video_donate_text {
+    padding: 40px;
+  }
+
+  .wsus__video_donate_img {
+    height: 430px;
+    margin: 0px 15px 15px 15px;
+  }
+
+  .wsus__single_brand {
+    height: 125px;
+  }
+
+  .wsus__campaign::after {
+    width: 100%;
+    height: 400px;
+    left: 0;
+    border-radius: 25px;
+  }
+
+  .wsus__campaign_card .img {
+    height: 313px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .wsus__counter_item {
+    border-right: 0;
+    margin: 25px 0px;
+  }
+
+  .wssus__event_item {
+    height: 680px;
+  }
+
+  .wsus__text_slider .marquee_animi ul li {
+    font-size: 60px;
+  }
+
+  .wsus__become_volunteer_bg {
+    padding: 42px;
+  }
+
+  .wsus__become_volunteer_text h2 {
+    font-size: 28px;
+  }
+
+  .wsus__testimonial_item .description {
+    font-size: 16px;
+  }
+
+  .wsis__single_volunteer .img {
+    height: 260px;
+  }
+
+  .wsus__faq_img {
+    height: 540px;
+    margin-bottom: 25px;
+  }
+
+  .wsus__faq_text .accordion-body p {
+    font-size: 16px;
+  }
+
+  .wsus__faq_text .accordion-header button {
+    font-size: 16px;
+  }
+
+  .wsus__single_blog .img {
+    height: 375px;
+  }
+
+  .wsus__footer_top ul {
+    display: none;
+  }
+
+  .wsus__footer_top {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .wsus__footer_link,
+  .wsus__footer_contact,
+  .wsus__footer_newsletter {
+    margin-top: 50px;
+  }
+
+  .wsus__footer_botton_text p {
+    margin-bottom: 15px;
+  }
+
+  .wsus__banner_slider_item::after {
+    width: 120px;
+    height: 120px;
+  }
+
+  .wsus__category_item .img::after {
+    width: 160px;
+    height: 160px;
+  }
+
+  .wsus__service_item {
+    padding: 30px 15px;
+  }
+
+  .wsus__service_item p {
+    font-size: 14px;
+  }
+
+  /* Home page end */
+}
+
+@media (max-width: 575.99px) {
+
+  /* Home page start */
+  .wsus__header_right {
+    justify-content: center;
+  }
+
+  .main_menu {
+    top: 37px;
+  }
+
+  .main_menu .navbar-collapse {
+    margin-top: 13px;
+  }
+
+  .main_menu .container {
+    padding: 14px 0px;
+  }
+
+  .main_menu .menu_right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--colorBlack);
+    padding: 15px 15px 20px 15px;
+    border-top: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
+  }
+
+  .main_menu .navbar-nav {
+    line-height: initial;
+    gap: 20px;
+    background: var(--colorBlack);
+    padding: 30px 15px;
+    border-top: 1px solid #3f3f3f;
+  }
+
+  .main_menu .navbar-brand {
+    margin-left: 12px;
+  }
+
+  .main_menu .navbar-toggler {
+    margin-right: 12px;
+  }
+
+  .main_menu .navbar-nav .nav-item:hover .sub_menu {
+    top: 150%;
+  }
+
+  .main_menu .menu_right .user_icon ul {
+    display: none;
   }
 
   .wsus__banner {
     height: auto;
   }
 
+  .wsus__banner_text {
+    padding-right: 25px;
+  }
+
   .wsus__banner_text h1 {
-    font-size: 42px;
+    font-size: 34px;
   }
 
   .wsus__banner_overlay {
-    padding: 100px 0px;
+    padding: 100px 12px;
   }
 
   .wsus__banner_text h5 {
     font-size: 20px;
   }
 
-  .wsus__banner::after {
+  .wsus__banner .slick-dots {
+    right: 20px;
+  }
+
+  .wsus__banner_text p {
+    max-width: 100%;
+  }
+
+  .wsus__banner .circle_box,
+  .wsus__banner::after,
+  .wsus__banner::before {
     display: none;
+  }
+
+  .section_heading h5 {
+    font-size: 16px;
+  }
+
+  .section_heading h2 {
+    font-size: 26px;
+  }
+
+  .wsus__category_item .img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .wsus__about_us_img {
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .wsus_about_us_text {
+    padding-left: 0;
+  }
+
+  .wsus_about_us_text ul li .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .wsus_about_us_text ul li .icon::after {
+    width: 40px;
+    height: 40px;
+  }
+
+  .wsus_about_us_text ul li h4 {
+    font-size: 14px;
+  }
+
+  .wsus_about_us_text ul li h3 {
+    font-size: 28px;
+  }
+
+  .wsus_about_us_text .wsus__about_founder a {
+    display: none;
+  }
+
+  .wsus__video_donate_text h2 {
+    font-size: 26px;
+  }
+
+  .wsus__video_donate_text {
+    padding: 30px;
+  }
+
+  .wsus__video_donate_text p {
+    font-size: 14px;
+  }
+
+  .wsus__video_donation_box ul li {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .wsus__video_donate_img {
+    height: auto;
+    margin: 15px 15px 15px 15px;
+  }
+
+  .wsus__video_donate_bottom h2 {
+    font-size: 28px;
+  }
+
+  .wsus__single_brand {
+    height: 90px;
+  }
+
+  .wsus__campaign::after {
+    width: 100%;
+    height: 400px;
+    left: 0;
+    border-radius: 25px;
+  }
+
+  .wsus__campaign_card .img {
+    height: auto;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .wsus__counter_item {
+    border-right: 0;
+    margin: 25px 0px;
+  }
+
+  .wssus__event_item {
+    height: auto;
+  }
+
+  .wsus__text_slider .marquee_animi ul li {
+    font-size: 44px;
+  }
+
+  .wsus__become_volunteer_bg {
+    padding: 30px;
+  }
+
+  .wsus__become_volunteer_text h2 {
+    font-size: 32px;
+  }
+
+  .wsus__testimonial_item .description {
+    font-size: 14px;
+  }
+
+  .wsis__single_volunteer .img {
+    height: auto;
+  }
+
+  .wsus__faq_img {
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  .wsus__faq_text .accordion-body p {
+    font-size: 14px;
+  }
+
+  .wsus__faq_text .accordion-header button {
+    font-size: 16px;
+  }
+
+  .wsus__single_blog .img {
+    height: auto;
+  }
+
+  .wsus__footer_top ul {
+    display: none;
+  }
+
+  .wsus__footer_top {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .wsus__footer_link,
+  .wsus__footer_contact,
+  .wsus__footer_newsletter {
+    margin-top: 50px;
+  }
+
+  .wsus__footer_botton_text p {
+    margin-bottom: 15px;
+  }
+
+  .wsus__banner_slider_item::after {
+    width: 120px;
+    height: 120px;
+  }
+
+  .wsus__category_item .img::after {
+    width: 160px;
+    height: 160px;
   }
 
   /* Home page end */
