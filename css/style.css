@@ -857,7 +857,8 @@ header .wsus__header_info a span {
   width: 100%;
 }
 
-.main_menu .navbar-nav .nav-item .sub_menu li a:hover,
+.main_menu .navbar-nav .nav-item .sub_menu li:hover a,
+.main_menu .navbar-nav .nav-item .sub_menu li a.active,
 .main_menu .menu_right .user_icon ul li a:hover {
   color: var(--colorPrimary);
   padding-left: 5px;
@@ -2263,7 +2264,7 @@ header .wsus__header_info a span {
   background: #f5f5f5;
   padding: 10px 22px;
   color: var(--colorBlack);
-  font-size: 16px;
+  font-size: 16px !important;
   font-weight: 700 !important;
   cursor: pointer;
   transition: all linear 0.3s;
@@ -2278,7 +2279,6 @@ header .wsus__header_info a span {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
-
 .wsus__video_donation_box ul li.active {
   background: var(--colorPrimary);
   color: var(--colorBlack);
@@ -2742,7 +2742,7 @@ footer {
 }
 
 .wsus__blog_details_header ul {
-  gap: 25px;
+  gap: 10px 25px;
 }
 
 .wsus__blog_details_header ul li {
@@ -2767,7 +2767,6 @@ footer {
 .wsus__service_details_header h2 {
   font-size: 48px;
   font-weight: 800;
-  line-height: 50px;
   margin-top: 20px;
 }
 
@@ -3130,6 +3129,7 @@ footer {
 .wsus__blog_comment_input_area .form-check {
   margin-top: 10px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .wsus__blog_comment_input_area .form-check input {
@@ -3143,12 +3143,15 @@ footer {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  position: absolute;
+    top: 2px;
 }
 
 .wsus__blog_comment_input_area .form-check label {
   color: var(--paraColor);
   font-size: 16px;
   font-weight: 400;
+  padding-left: 5px;
 }
 
 .wsus__sidebar_search,
@@ -3505,7 +3508,7 @@ footer {
   background: #eee;
   color: var(--colorBlack);
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 600;
   padding: 10px 30px;
   border-radius: 50px;
   -webkit-border-radius: 50px;

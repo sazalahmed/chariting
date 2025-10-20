@@ -2,30 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
     <title>Chariting - Charity & Nonprofit HTML Template</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/venobox.min.css">
-    <link rel="stylesheet" href="css/animated_barfiller.css">
-    <link rel="stylesheet" href="css/venobox.min.css">
-    <link rel="stylesheet" href="css/spacing.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <link rel="stylesheet" href="css/animated_barfiller.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <link rel="stylesheet" href="css/scroll_button.css" />
+    
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
 <body>
-
     <!-- Header start -->
     <header>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6">
+                <div class="col-lg-6 d-none d-lg-block">
                     <ul class="wsus__header_info">
                         <li>
                             <span>
@@ -41,19 +42,29 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-lg-6">
                     <div class="wsus__header_right">
-                        <ul class="icon">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <ul class="icon d-none d-sm-flex">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </li>
                         </ul>
                         <ul class="language_currency">
                             <li>
                                 <select class="select_js">
-                                    <option value="">English </option>
+                                    <option value="">English</option>
                                     <option value="">Japanese</option>
                                     <option value="">Korean</option>
                                     <option value="">Chinese</option>
@@ -77,7 +88,6 @@
     </header>
     <!-- Header end -->
 
-
     <!-- Main menu start -->
     <nav class="navbar navbar-expand-lg main_menu">
         <div class="container">
@@ -87,12 +97,15 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+                </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="campaign_list.html">Donations <i class="far fa-chevron-down"></i></a>
@@ -109,9 +122,11 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pages <i class="far fa-chevron-down"></i></a>
+                        <a class="nav-link active" href="#">Pages <i class="far fa-chevron-down"></i></a>
                         <ul class="sub_menu">
-                            <li><a href="about_us.html">about us</a></li>
+                            <li>
+                                <a class="active" href="about_us.html">about us</a>
+                            </li>
                             <li><a href="faq.html">FAQ's</a></li>
                             <li><a href="volunteers.html">volunteer</a></li>
                             <li><a href="sign_in.html">sign in</a></li>
@@ -120,6 +135,9 @@
                             <li><a href="services.html">services</a></li>
                             <li><a href="service_details.html">service details</a></li>
                             <li><a href="testimonial.html">testimoial</a></li>
+                            <li><a href="donot_list.html">donor list</a></li>
+                            <li><a href="photo_gallery.html">photo gallery</a></li>
+                            <li><a href="video_gallery.html">video gallery</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -136,15 +154,19 @@
                 <div class="menu_right">
                     <a href="about_us.html" class="wsus__common_btn">discover more</a>
                     <div class="user_icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                        </svg>
+                        <a class="user_link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                            </svg>
+                        </a>
                         <ul>
                             <li><a href="dashboard_profile.html">Dashboard</a></li>
                             <li><a href="dashboard_profile.html">Profile</a></li>
-                            <li><a href="dashboard_change_password.html">Change Password</a></li>
+                            <li>
+                                <a href="dashboard_change_password.html">Change Password</a>
+                            </li>
                             <li><a href="sign_in.html">sign out</a></li>
                         </ul>
                     </div>
@@ -153,7 +175,6 @@
         </div>
     </nav>
     <!-- Main menu end -->
-
 
     <!-- Breadcrumb start -->
     <section class="wsus__breadcrumb" style="background: url(images/breadcrumb_bg.jpg);">
@@ -175,63 +196,62 @@
     </section>
     <!-- Breadcrumb end -->
 
-
     <!-- About us start -->
     <section class="wsus__about_us mt_100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5">
+                <div class="col-lg-5">
                     <div class="wsus__about_us_img">
-                        <img src="images/about-us-images.png" alt="Img" class="img-fluid" />
+                        <img src="images/about-us-images.png" alt="Img" class="img-fluid w-100" />
                         <a class="venobox play_btn" data-autoplay="true" data-vbtype="video"
                             href="https://youtu.be/5q1YBhJA-rU?si=W6ATPvd4KvLUK1yg">
                             <i class="far fa-play"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-7">
+                <div class="col-lg-7">
                     <div class="wsus_about_us_text">
                         <div class="section_heading">
                             <h5>About Us</h5>
                             <h2>Help Children by Collecting Priceless Contributions</h2>
                         </div>
-                        <p class="about_description">We help companies develop powerful corporate social
-                            responsibility,
-                            grantmaking, and employee engagement strategies. Our impact is about more than moving
-                            money
-                            to where it’s needed most it’s also about helping non-profits.</p>
+                        <p class="about_description">
+                            We help companies develop powerful corporate social
+                            responsibility, grantmaking, and employee engagement strategies.
+                            Our impact is about more than moving money to where it’s needed
+                            most it’s also about helping non-profits.
+                        </p>
                         <ul>
                             <li>
                                 <div class="icon">
-                                    <img src="images/about_icon_1.png" alt="icon" class="img-fluid" />
+                                    <img src="images/about_icon_1.png" alt="icon" class="img-fluid w-100" />
                                 </div>
                                 <h4>Donete Now</h4>
                                 <h3 class="counter">3240</h3>
                             </li>
                             <li>
                                 <div class="icon">
-                                    <img src="images/about_icon_2.png" alt="icon" class="img-fluid" />
+                                    <img src="images/about_icon_2.png" alt="icon" class="img-fluid w-100" />
                                 </div>
                                 <h4>total fund raised</h4>
                                 <h3 class="counter">50400</h3>
                             </li>
                             <li>
                                 <div class="icon">
-                                    <img src="images/about_icon_3.png" alt="icon" class="img-fluid" />
+                                    <img src="images/about_icon_3.png" alt="icon" class="img-fluid w-100" />
                                 </div>
                                 <h4>team member</h4>
                                 <h3 class="counter">1249</h3>
                             </li>
                         </ul>
                         <div class="">
-
                             <div class="wsus__about_founder">
                                 <div class="img">
-                                    <img src="images/founder.jpg" alt="founder" class="img-fluid" />
+                                    <img src="images/founder.jpg" alt="founder" class="img-fluid w-100" />
                                 </div>
                                 <h3>Smith jhon</h3>
                                 <p>founder</p>
-                                <a href="#" class="wsus__common_btn">donate now</a>
+                                <a href="campaign_details.html" class="wsus__common_btn">donate now</a>
                             </div>
                         </div>
                     </div>
@@ -240,7 +260,6 @@
         </div>
     </section>
     <!-- About us end -->
-
 
     <!-- Services start -->
     <section class="wsus__services mt_100">
@@ -257,88 +276,104 @@
                 <div class="col-xl-3">
                     <div class="wsus__service_item category_1">
                         <span class="icon">
-                            <img src="images/category_icon_1.png" alt="category" class="img-fluid" />
+                            <img src="images/category_icon_1.png" alt="category" class="img-fluid w-100" />
                         </span>
                         <a class="title" href="#">Education</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum alias vero? Ullam,
-                            nostrum qui!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            ipsum alias vero? Ullam, nostrum qui!
+                        </p>
                         <a class="read_btn" href="#">Read more <i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-3">
                     <div class="wsus__service_item category_2">
                         <span class="icon">
-                            <img src="images/category_icon_2.png" alt="category" class="img-fluid" />
+                            <img src="images/category_icon_2.png" alt="category" class="img-fluid w-100" />
                         </span>
                         <a class="title" href="#">Medical Help</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum alias vero? Ullam,
-                            nostrum qui!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            ipsum alias vero? Ullam, nostrum qui!
+                        </p>
                         <a class="read_btn" href="#">Read more <i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-3">
                     <div class="wsus__service_item category_3">
                         <span class="icon">
-                            <img src="images/category_icon_3.png" alt="category" class="img-fluid" />
+                            <img src="images/category_icon_3.png" alt="category" class="img-fluid w-100" />
                         </span>
                         <a class="title" href="#">Healthy Foods</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum alias vero? Ullam,
-                            nostrum qui!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            ipsum alias vero? Ullam, nostrum qui!
+                        </p>
                         <a class="read_btn" href="#">Read more <i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-3">
                     <div class="wsus__service_item category_4">
                         <span class="icon">
-                            <img src="images/category_icon_4.png" alt="category" class="img-fluid" />
+                            <img src="images/category_icon_4.png" alt="category" class="img-fluid w-100" />
                         </span>
                         <a class="title" href="#">Environment</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum alias vero? Ullam,
-                            nostrum qui!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            ipsum alias vero? Ullam, nostrum qui!
+                        </p>
                         <a class="read_btn" href="#">Read more <i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-3">
                     <div class="wsus__service_item category_5">
                         <span class="icon">
-                            <img src="images/category_icon_5.png" alt="category" class="img-fluid" />
+                            <img src="images/category_icon_5.png" alt="category" class="img-fluid w-100" />
                         </span>
                         <a class="title" href="#">Financial Support</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum alias vero? Ullam,
-                            nostrum qui!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            ipsum alias vero? Ullam, nostrum qui!
+                        </p>
                         <a class="read_btn" href="#">Read more <i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-3">
                     <div class="wsus__service_item category_6">
                         <span class="icon">
-                            <img src="images/category_icon_6.png" alt="category" class="img-fluid" />
+                            <img src="images/category_icon_6.png" alt="category" class="img-fluid w-100" />
                         </span>
                         <a class="title" href="#">Cancer Treatment</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum alias vero? Ullam,
-                            nostrum qui!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            ipsum alias vero? Ullam, nostrum qui!
+                        </p>
                         <a class="read_btn" href="#">Read more <i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-3">
                     <div class="wsus__service_item category_7">
                         <span class="icon">
-                            <img src="images/category_icon_7.png" alt="category" class="img-fluid" />
+                            <img src="images/category_icon_7.png" alt="category" class="img-fluid w-100" />
                         </span>
                         <a class="title" href="#">Non profit</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum alias vero? Ullam,
-                            nostrum qui!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            ipsum alias vero? Ullam, nostrum qui!
+                        </p>
                         <a class="read_btn" href="#">Read more <i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-3">
                     <div class="wsus__service_item category_8">
                         <span class="icon">
-                            <img src="images/category_icon_8.png" alt="category" class="img-fluid" />
+                            <img src="images/category_icon_8.png" alt="category" class="img-fluid w-100" />
                         </span>
                         <a class="title" href="#">Home benefits</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum alias vero? Ullam,
-                            nostrum qui!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                            ipsum alias vero? Ullam, nostrum qui!
+                        </p>
                         <a class="read_btn" href="#">Read more <i class="fas fa-arrow-up"></i></a>
                     </div>
                 </div>
@@ -347,43 +382,42 @@
     </section>
     <!-- Services end -->
 
-
     <!-- Counter start -->
     <section class="wsus__counter mt_100" style="background: url(images/counter_bg.jpg);">
         <div class="wsus__counter_overlay pt_100 pb_100">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-md-3 col-6">
                         <div class="wsus__counter_item">
                             <div class="icon">
-                                <img src="images/counter_icon_1.svg" alt="counter" class="img-fluid injectable">
+                                <img src="images/counter_icon_1.svg" alt="counter" class="img-fluid injectable" />
                             </div>
                             <h3 class="counter">2487</h3>
                             <p>Completer projects</p>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-md-3 col-6">
                         <div class="wsus__counter_item">
                             <div class="icon">
-                                <img src="images/counter_icon_2.svg" alt="counter" class="img-fluid injectable">
+                                <img src="images/counter_icon_2.svg" alt="counter" class="img-fluid injectable" />
                             </div>
                             <h3 class="counter">1247</h3>
                             <p>Team member</p>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-md-3 col-6">
                         <div class="wsus__counter_item">
                             <div class="icon">
-                                <img src="images/counter_icon_3.svg" alt="counter" class="img-fluid injectable">
+                                <img src="images/counter_icon_3.svg" alt="counter" class="img-fluid injectable" />
                             </div>
                             <h3 class="counter">1247</h3>
                             <p>Clients Review</p>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-md-3 col-6">
                         <div class="wsus__counter_item">
                             <div class="icon">
-                                <img src="images/counter_icon_4.svg" alt="counter" class="img-fluid injectable">
+                                <img src="images/counter_icon_4.svg" alt="counter" class="img-fluid injectable" />
                             </div>
                             <h3 class="counter">1247</h3>
                             <p>Wining Awards</p>
@@ -394,7 +428,6 @@
         </div>
     </section>
     <!-- Counter end -->
-
 
     <!-- Text slider start -->
     <section class="wsus__text_slider">
@@ -423,7 +456,6 @@
     </section>
     <!-- Text slider end -->
 
-
     <!-- Become a volunteer start -->
     <section class="wsus__become_volunteer mt_100">
         <div class="container">
@@ -432,8 +464,11 @@
                     <div class="col-xl-8">
                         <div class="wsus__become_volunteer_text">
                             <h2>Join With Us As a Volunteer</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <p>
+                                There are many variations of passages of Lorem Ipsum
+                                available, but the majority have suffered alteration in some
+                                form, by injected humour, or randomised words which.
+                            </p>
                             <a class="wsus__common_btn" href="#">Join Volunteer</a>
                         </div>
                     </div>
@@ -442,7 +477,6 @@
         </div>
     </section>
     <!-- Become a volunteer end -->
-
 
     <!-- Volunteer start -->
     <section class="wsus__volunteer mt_100 pt_100 pb_100" style="background: url(images/volunteer_bg.jpg);">
@@ -459,7 +493,7 @@
                 <div class="col-xl-3">
                     <div class="wsis__single_volunteer">
                         <div class="img">
-                            <img src="images/volunteer_img_1.jpg" alt="volunteer" class="img-fluid" />
+                            <img src="images/volunteer_img_1.jpg" alt="volunteer" class="img-fluid w-100" />
                         </div>
                         <div class="text">
                             <h4>Jhon Smith</h4>
@@ -470,7 +504,7 @@
                 <div class="col-xl-3">
                     <div class="wsis__single_volunteer">
                         <div class="img">
-                            <img src="images/volunteer_img_4.jpg" alt="volunteer" class="img-fluid" />
+                            <img src="images/volunteer_img_4.jpg" alt="volunteer" class="img-fluid w-100" />
                         </div>
                         <div class="text">
                             <h4>David Davis</h4>
@@ -481,7 +515,7 @@
                 <div class="col-xl-3">
                     <div class="wsis__single_volunteer">
                         <div class="img">
-                            <img src="images/volunteer_img_3.jpg" alt="volunteer" class="img-fluid" />
+                            <img src="images/volunteer_img_3.jpg" alt="volunteer" class="img-fluid w-100" />
                         </div>
                         <div class="text">
                             <h4>Sarah Taylor</h4>
@@ -492,7 +526,7 @@
                 <div class="col-xl-3">
                     <div class="wsis__single_volunteer">
                         <div class="img">
-                            <img src="images/volunteer_img_2.jpg" alt="volunteer" class="img-fluid" />
+                            <img src="images/volunteer_img_2.jpg" alt="volunteer" class="img-fluid w-100" />
                         </div>
                         <div class="text">
                             <h4>Joseph Anderson</h4>
@@ -503,7 +537,7 @@
                 <div class="col-xl-3">
                     <div class="wsis__single_volunteer">
                         <div class="img">
-                            <img src="images/volunteer_img_5.jpg" alt="volunteer" class="img-fluid" />
+                            <img src="images/volunteer_img_5.jpg" alt="volunteer" class="img-fluid w-100" />
                         </div>
                         <div class="text">
                             <h4>Michael Smith</h4>
@@ -515,7 +549,6 @@
         </div>
     </section>
     <!-- Volunteer end -->
-
 
     <!-- Brand start -->
     <section class="wsus__brand mt_100">
@@ -566,22 +599,25 @@
     </section>
     <!-- Brand end -->
 
-
     <!-- Video and donate start -->
     <section class=" wsus__video_and_donate mt_250" style="background: url(images/donation_video_bg.jpg);">
         <div class="wsus__video_and_donate_overlay pb_100">
             <div class="container">
                 <div class="wsus__video_donate_text_top">
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
                             <div class="wsus__video_donate_text">
                                 <h2>Your Donation Can Change Someone's Life</h2>
-                                <p>we’ve granted more than 120,000 wishes all over the world donations are
-                                    processed.
+                                <p>
+                                    we’ve granted more than 120,000 wishes all over the world
+                                    donations are processed.
                                 </p>
                                 <h5>Your Donation:</h5>
                                 <div class="wsus__video_donation_box">
-                                    <input type="text" placeholder="$200">
+                                    <div class="input_box">
+                                        <input type="text" placeholder="200" />
+                                        <span>$</span>
+                                    </div>
                                     <ul>
                                         <li>$100</li>
                                         <li class="active">$200</li>
@@ -592,15 +628,15 @@
                                 <button class="wsus__common_btn">Donate Now</button>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
                             <div class="wsus__video_donate_img">
-                                <img src="images/video_image.jpg" alt="donate" class="img-fluid" />
+                                <img src="images/video_image.jpg" alt="donate" class="img-fluid w-100" />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-6 m-auto">
+                    <div class="col-xl-8 col-xxl-6 m-auto">
                         <div class="wsus__video_donate_bottom">
                             <a class="venobox play_btn" data-autoplay="true" data-vbtype="video"
                                 href="https://youtu.be/5q1YBhJA-rU?si=W6ATPvd4KvLUK1yg">
@@ -608,11 +644,11 @@
                             </a>
                             <h4>Video Here to Support</h4>
                             <h2>We Help Poor This Lifes Service</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam
-                                recusandae aliquam,
-                                earum labore itaque molestiae laudantium natus necessitatibus quia fuga.
-                                Dolorem
-                                quaerat.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                                ipsam recusandae aliquam, earum labore itaque molestiae
+                                laudantium natus necessitatibus quia fuga. Dolorem quaerat.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -620,7 +656,6 @@
         </div>
     </section>
     <!-- Video and donate end -->
-
 
     <!-- Faq start -->
     <section class="wsus__faq mt_100">
@@ -634,12 +669,12 @@
                 </div>
             </div>
             <div class="row mt_40 justify-content-between">
-                <div class="col-xl-6">
+                <div class="col-lg-5 col-xl-6">
                     <div class="wsus__faq_img mt_15">
-                        <img src="images/faq_img.png" alt="faq_img" class="img-fluid">
+                        <img src="images/faq_img.png" alt="faq_img" class="img-fluid w-100" />
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-lg-7 col-xl-6">
                     <div class="wsus__faq_text">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
@@ -652,11 +687,15 @@
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla
-                                            quidem! Labore minima earum perspiciatis praesentium nulla autem doloribus
-                                            voluptatem ipsum, totam adipisci, quas hic eos et esse numquam laborum
-                                            officiis consectetur inventore distinctio, repellat ipsam. Cumque fugit
-                                            repellendus nostrum.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Architecto, nulla quidem! Labore minima earum
+                                            perspiciatis praesentium nulla autem doloribus
+                                            voluptatem ipsum, totam adipisci, quas hic eos et esse
+                                            numquam laborum officiis consectetur inventore
+                                            distinctio, repellat ipsam. Cumque fugit repellendus
+                                            nostrum.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -667,109 +706,122 @@
                                         Do you have any upcoming events or campaigns?
                                     </button>
                                 </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla
-                                            quidem! Labore minima earum perspiciatis praesentium nulla autem doloribus
-                                            voluptatem ipsum, totam adipisci, quas hic eos et esse numquam laborum
-                                            officiis consectetur inventore distinctio, repellat ipsam. Cumque fugit
-                                            repellendus nostrum.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Architecto, nulla quidem! Labore minima earum
+                                            perspiciatis praesentium nulla autem doloribus
+                                            voluptatem ipsum, totam adipisci, quas hic eos et esse
+                                            numquam laborum officiis consectetur inventore
+                                            distinctio, repellat ipsam. Cumque fugit repellendus
+                                            nostrum.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         What impact has your charity made so far?
                                     </button>
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla
-                                            quidem! Labore minima earum perspiciatis praesentium nulla autem doloribus
-                                            voluptatem ipsum, totam adipisci, quas hic eos et esse numquam laborum
-                                            officiis consectetur inventore distinctio, repellat ipsam. Cumque fugit
-                                            repellendus nostrum.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Architecto, nulla quidem! Labore minima earum
+                                            perspiciatis praesentium nulla autem doloribus
+                                            voluptatem ipsum, totam adipisci, quas hic eos et esse
+                                            numquam laborum officiis consectetur inventore
+                                            distinctio, repellat ipsam. Cumque fugit repellendus
+                                            nostrum.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree1" aria-expanded="false"
-                                        aria-controls="collapseThree1">
+                                        data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
                                         How can I volunteer with your organization?
                                     </button>
                                 </h2>
-                                <div id="collapseThree1" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseThree1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla
-                                            quidem! Labore minima earum perspiciatis praesentium nulla autem doloribus
-                                            voluptatem ipsum, totam adipisci, quas hic eos et esse numquam laborum
-                                            officiis consectetur inventore distinctio, repellat ipsam. Cumque fugit
-                                            repellendus nostrum.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Architecto, nulla quidem! Labore minima earum
+                                            perspiciatis praesentium nulla autem doloribus
+                                            voluptatem ipsum, totam adipisci, quas hic eos et esse
+                                            numquam laborum officiis consectetur inventore
+                                            distinctio, repellat ipsam. Cumque fugit repellendus
+                                            nostrum.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree2" aria-expanded="false"
-                                        aria-controls="collapseThree2">
+                                        data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
                                         Where does my donation go?
                                     </button>
                                 </h2>
-                                <div id="collapseThree2" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseThree2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla
-                                            quidem! Labore minima earum perspiciatis praesentium nulla autem doloribus
-                                            voluptatem ipsum, totam adipisci, quas hic eos et esse numquam laborum
-                                            officiis consectetur inventore distinctio, repellat ipsam. Cumque fugit
-                                            repellendus nostrum.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Architecto, nulla quidem! Labore minima earum
+                                            perspiciatis praesentium nulla autem doloribus
+                                            voluptatem ipsum, totam adipisci, quas hic eos et esse
+                                            numquam laborum officiis consectetur inventore
+                                            distinctio, repellat ipsam. Cumque fugit repellendus
+                                            nostrum.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree3" aria-expanded="false"
-                                        aria-controls="collapseThree3">
+                                        data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                                         How can I donate to your cause?
                                     </button>
                                 </h2>
-                                <div id="collapseThree3" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseThree3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla
-                                            quidem! Labore minima earum perspiciatis praesentium nulla autem doloribus
-                                            voluptatem ipsum, totam adipisci, quas hic eos et esse numquam laborum
-                                            officiis consectetur inventore distinctio, repellat ipsam. Cumque fugit
-                                            repellendus nostrum.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Architecto, nulla quidem! Labore minima earum
+                                            perspiciatis praesentium nulla autem doloribus
+                                            voluptatem ipsum, totam adipisci, quas hic eos et esse
+                                            numquam laborum officiis consectetur inventore
+                                            distinctio, repellat ipsam. Cumque fugit repellendus
+                                            nostrum.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree4" aria-expanded="false"
-                                        aria-controls="collapseThree4">
+                                        data-bs-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
                                         What is your charity's mission?
                                     </button>
                                 </h2>
-                                <div id="collapseThree4" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseThree4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nulla
-                                            quidem! Labore minima earum perspiciatis praesentium nulla autem doloribus
-                                            voluptatem ipsum, totam adipisci, quas hic eos et esse numquam laborum
-                                            officiis consectetur inventore distinctio, repellat ipsam. Cumque fugit
-                                            repellendus nostrum.</p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Architecto, nulla quidem! Labore minima earum
+                                            perspiciatis praesentium nulla autem doloribus
+                                            voluptatem ipsum, totam adipisci, quas hic eos et esse
+                                            numquam laborum officiis consectetur inventore
+                                            distinctio, repellat ipsam. Cumque fugit repellendus
+                                            nostrum.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -781,9 +833,8 @@
     </section>
     <!-- Faq end -->
 
-
     <!-- Footer start -->
-    <footer class="mt_100" style="background: url(images/footer_bg.jpg);">
+    <footer class="mt_100" style="background: url(images/footer_bg.jpg)">
         <div class="wsus__footer_overlay pt_80">
             <div class="container">
                 <div class="row">
@@ -811,7 +862,6 @@
                                             <path stroke-linecap="round" stroke-linejoin="round"
                                                 d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                         </svg>
-
                                     </div>
                                     <h4>$60000+</h4>
                                     <p>Fund raised of supporters</p>
@@ -821,7 +871,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-xl-2">
+                    <div class="col-lg-2 col-sm-6">
                         <div class="wsus__footer_link">
                             <h3>company</h3>
                             <ul>
@@ -833,7 +883,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-lg-2 col-sm-6">
                         <div class="wsus__footer_link">
                             <h3>Service</h3>
                             <ul>
@@ -845,7 +895,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-lg-3">
                         <div class="wsus__footer_contact">
                             <h3>contact us</h3>
                             <ul>
@@ -884,19 +934,31 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-lg-3">
                         <div class="wsus__footer_newsletter">
                             <h3>newsletter</h3>
                             <form>
-                                <input type="text" placeholder="Subscribe">
-                                <button type="submit"><i class="far fa-paper-plane"></i></button>
+                                <input type="text" placeholder="Subscribe" />
+                                <button type="submit">
+                                    <i class="far fa-paper-plane"></i>
+                                </button>
                             </form>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-behance"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -910,7 +972,9 @@
                                 <p>Copyright © 2024 All Rights Reserved by WebSoluction</p>
                                 <ul>
                                     <li><a href="privaacy_policy.html">Privacy Policy</a></li>
-                                    <li><a href="terms_condition.html">Terms & Conditions</a></li>
+                                    <li>
+                                        <a href="terms_condition.html">Terms & Conditions</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -921,6 +985,13 @@
     </footer>
     <!-- Footer end -->
 
+    <!-- Scroll buton start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Scroll buton end -->
 
     <!--jquery library js-->
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -948,9 +1019,10 @@
     <script src="js/select2.min.js"></script>
     <!--sticky sidebar js-->
     <script src="js/sticky_sidebar.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
     <!--main/custom js-->
     <script src="js/main.js"></script>
-
 </body>
 
 </html>
