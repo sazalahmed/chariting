@@ -1465,7 +1465,7 @@ header .wsus__header_info a span {
   background-size: cover;
   background-repeat: no-repeat;
   width: 90%;
-  height: 575px;
+  height: 573px;
   top: 0;
   left: 5%;
   z-index: 1;
@@ -1806,6 +1806,7 @@ header .wsus__header_info a span {
 .wsus__counter_item {
   text-align: center;
   border-right: 1px solid #ffffff4d;
+  padding-right: 25px;
 }
 
 .wsus__counter_item .icon {
@@ -1844,7 +1845,7 @@ header .wsus__header_info a span {
   opacity: 0.8;
 }
 
-.wsus__counter .col-xl-3:last-child .wsus__counter_item {
+.wsus__counter .col-6:last-child .wsus__counter_item {
   border: none;
 }
 
@@ -2285,7 +2286,7 @@ header .wsus__header_info a span {
 
 .wsus__video_donate_img {
   overflow: hidden;
-  height: 550px;
+  height: 535px;
   margin: 15px 15px 15px 0px;
   border-radius: 25px;
   -webkit-border-radius: 25px;
