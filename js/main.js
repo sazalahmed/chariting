@@ -54,6 +54,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
+        // for RTL
+        rtl: true,
 
         responsive: [
             {
@@ -122,6 +124,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
+        // for RTL
+        rtl: true,
 
         responsive: [
             {
@@ -159,7 +163,9 @@ $(function () {
         speed: 50,
         gap: 25,
         delayBeforeStart: 0,
-        direction: 'left',
+        // direction: 'left',
+        // for RTL
+        direction: 'right',
         duplicated: true,
         pauseOnHover: true,
         startVisible: true,
@@ -174,6 +180,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
+        // for RTL
+        rtl: true,
 
         responsive: [
             {
@@ -216,6 +224,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
+        // for RTL
+        rtl: true,
 
         responsive: [
             {
@@ -259,6 +269,9 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        rtl: true,
+        // for RTL
+        rtl: true,
 
         responsive: [
             {
@@ -304,6 +317,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
+        // for RTL
+        rtl: true,
 
         responsive: [
             {
@@ -379,45 +394,6 @@ $(function () {
         ]
     });
 
-
-    // related campaing Slider
-    $('.related_campaing_slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: true,
-        arrows: false,
-
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    });
-
-
     // testiminial Slider
     $('.testimonial_slider').slick({
         slidesToShow: 2,
@@ -426,6 +402,8 @@ $(function () {
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
+        // for RTL
+        rtl: true,
 
         responsive: [
             {

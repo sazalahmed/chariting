@@ -175,6 +175,7 @@ button {
   font-size: 52px;
   font-weight: 800;
   margin-top: 10px;
+  text-align: center;
 }
 
 .wsus__common_btn {
@@ -832,7 +833,7 @@ header .wsus__header_info a span {
   flex-direction: column;
   gap: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  width: 250px;
+  width: 220px;
   opacity: 0;
   visibility: hidden;
   transition: all linear 0.3s;
@@ -851,7 +852,7 @@ header .wsus__header_info a span {
 .main_menu .navbar-nav .nav-item .sub_menu li a,
 .main_menu .menu_right .user_icon ul li a {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--colorBlack);
   text-transform: capitalize;
   width: 100%;
@@ -1275,7 +1276,9 @@ header .wsus__header_info a span {
 /* Category end */
 
 /* about us start */
-.wsus__about_us .section_heading {
+.wsus__about_us .section_heading,
+.wsus__about_us .section_heading h5,
+.wsus__about_us .section_heading h2 {
   text-align: left;
 }
 
@@ -1285,7 +1288,7 @@ header .wsus__header_info a span {
 
 .wsus__about_us_img {
   position: relative;
-  height: 560px;
+  height: 563px;
 }
 
 .wsus__about_us_img a {
@@ -1831,6 +1834,7 @@ header .wsus__header_info a span {
   color: var(--colorWhite);
   font-size: 38px;
   font-weight: 700;
+  text-align: center;
 }
 
 .wsus__counter_item h3::after {
@@ -1844,6 +1848,7 @@ header .wsus__header_info a span {
   margin-top: 5px;
   font-size: 16px;
   opacity: 0.8;
+  text-align: center;
 }
 
 .wsus__counter .col-6:last-child .wsus__counter_item {
@@ -2132,6 +2137,10 @@ header .wsus__header_info a span {
   background-image: url(../images/minus_icon.png);
 }
 
+.wsus__faq_text .accordion-body p {
+  font-size: 16px;
+}
+
 /* faq end */
 
 /* brand start */
@@ -2321,6 +2330,7 @@ header .wsus__header_info a span {
 .wsus__video_donate_bottom p {
   color: var(--colorWhite);
   opacity: 0.8;
+  text-align: center;
 }
 
 /* Video and donate end */
@@ -2619,7 +2629,7 @@ footer {
   background: #ffffff21;
   border: none;
   padding: 15px 55px 15px 30px;
-  color: var(--colorPrimary);
+  color: var(--colorWhite);
   font-size: 16px;
   font-weight: 400;
   border-radius: 50px;
@@ -2630,7 +2640,7 @@ footer {
 }
 
 .wsus__footer_newsletter form input::placeholder {
-  color: var(--colorPrimary);
+  color: #ffffff70;
 }
 
 .wsus__footer_newsletter form button {

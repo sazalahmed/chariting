@@ -33,7 +33,6 @@
   .wsus__breadcrumb_overlay::before {
     left: 30px;
   }
-
 }
 
 @media (min-width: 1400px) and (max-width: 1599.99px) {
@@ -273,6 +272,8 @@
   }
 
   /* Blog details end */
+
+
   /* Caampaogn details start */
   .wsus__campaign_details_text {
     padding-left: 0;
@@ -343,7 +344,6 @@
   .wsus__sign_up_img {
     height: 100%;
   }
-
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -545,6 +545,8 @@
   }
 
   /* Blog details end */
+
+
   /* Caampaogn details start */
   .wsus__campaign_details_text {
     padding-left: 0;
@@ -609,7 +611,6 @@
   .wsus__sign_up_img {
     height: 100%;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -809,7 +810,6 @@
 
   /* Home page end */
 
-
   .wsus__breadcrumb_overlay::before {
     display: none;
   }
@@ -864,6 +864,8 @@
   }
 
   /* Blog details end */
+
+
   /* Caampaogn details start */
   .product_slider_large_item {
     height: 440px;
@@ -959,7 +961,6 @@
     height: 625px;
     margin-bottom: 25px;
   }
-
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1186,6 +1187,8 @@
   }
 
   /* Home page end */
+
+
   /* Abour us end */
   .wsus__breadcrumb_overlay::before {
     display: none;
@@ -1305,6 +1308,8 @@
   }
 
   /* Caampaogn details end */
+
+
   /* Contact us start */
   .wsus__contact_form form {
     padding: 40px;
@@ -1350,7 +1355,6 @@
   .wsus__sign_up_contant {
     padding: 30px;
   }
-
 }
 
 @media (max-width: 575.99px) {
@@ -1616,6 +1620,8 @@
   }
 
   /* Home page end */
+
+
   /* About us start */
   .wsus__breadcrumb_overlay::before {
     display: none;
@@ -1740,6 +1746,8 @@
   }
 
   /* Caampaogn details end */
+
+
   /* Contact us start */
   .wsus__contact_form form {
     padding: 30px;
