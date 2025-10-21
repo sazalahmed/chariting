@@ -3806,15 +3806,10 @@ footer {
 /*===========================
         Sign in start
 ===========================*/
-.wsus__sign_up {
-  margin-right: 210px;
-  margin-left: 210px;
-}
-
 .wsus__sign_up_img {
   background: #fbf1f1;
   overflow: hidden;
-  height: 770px;
+  height: 700px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -3823,7 +3818,7 @@ footer {
 }
 
 .wsus__sign_up_contant {
-  padding: 70px;
+  padding: 40px;
   background: #fbf1f1;
   height: 100%;
   display: flex;
