@@ -2279,6 +2279,7 @@ header .wsus__header_info a span {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
+
 .wsus__video_donation_box ul li.active {
   background: var(--colorPrimary);
   color: var(--colorBlack);
@@ -3144,7 +3145,7 @@ footer {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   position: absolute;
-    top: 2px;
+  top: 2px;
 }
 
 .wsus__blog_comment_input_area .form-check label {
@@ -3977,20 +3978,22 @@ footer {
 }
 
 /*===========================
-    Sign in end
+  Sign in end
 ===========================*/
 
 /*===========================
-        Photo gallery start
+  Photo gallery start
 ===========================*/
 .wsus__gallery_item {
   position: relative;
   display: block;
   margin-top: 25px;
+  height: 415px;
 }
 
 .wsus__gallery_item img {
-  height: 415px !important;
+  width: 100% !important;
+  height: 100% !important;
   border-radius: 16px;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
@@ -4178,7 +4181,7 @@ footer {
 
 .wsus__dashboard_sidebar_top h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   text-align: center;
   margin-top: 13px;
   text-transform: capitalize;

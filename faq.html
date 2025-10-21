@@ -2,30 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
     <title>Chariting - Charity & Nonprofit HTML Template</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/venobox.min.css">
-    <link rel="stylesheet" href="css/animated_barfiller.css">
-    <link rel="stylesheet" href="css/venobox.min.css">
-    <link rel="stylesheet" href="css/spacing.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/animated_barfiller.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <link rel="stylesheet" href="css/scroll_button.css" />
+
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
 <body>
-
     <!-- Header start -->
     <header>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6">
+                <div class="col-lg-6 d-none d-lg-block">
                     <ul class="wsus__header_info">
                         <li>
                             <span>
@@ -41,19 +42,29 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-lg-6">
                     <div class="wsus__header_right">
-                        <ul class="icon">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <ul class="icon d-none d-sm-flex">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </li>
                         </ul>
                         <ul class="language_currency">
                             <li>
                                 <select class="select_js">
-                                    <option value="">English </option>
+                                    <option value="">English</option>
                                     <option value="">Japanese</option>
                                     <option value="">Korean</option>
                                     <option value="">Chinese</option>
@@ -77,7 +88,6 @@
     </header>
     <!-- Header end -->
 
-
     <!-- Main menu start -->
     <nav class="navbar navbar-expand-lg main_menu">
         <div class="container">
@@ -87,12 +97,16 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+                </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="campaign_list.html">Donations <i class="far fa-chevron-down"></i></a>
@@ -109,10 +123,12 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pages <i class="far fa-chevron-down"></i></a>
+                        <a class="nav-link active" href="#">Pages <i class="far fa-chevron-down"></i></a>
                         <ul class="sub_menu">
-                            <li><a href="about_us.html">about us</a></li>
-                            <li><a href="faq.html">FAQ's</a></li>
+                            <li>
+                                <a href="about_us.html">about us</a>
+                            </li>
+                            <li><a class="active" href="faq.html">FAQ's</a></li>
                             <li><a href="volunteers.html">volunteer</a></li>
                             <li><a href="sign_in.html">sign in</a></li>
                             <li><a href="sign_up.html">sign up</a></li>
@@ -120,6 +136,9 @@
                             <li><a href="services.html">services</a></li>
                             <li><a href="service_details.html">service details</a></li>
                             <li><a href="testimonial.html">testimoial</a></li>
+                            <li><a href="donot_list.html">donor list</a></li>
+                            <li><a href="photo_gallery.html">photo gallery</a></li>
+                            <li><a href="video_gallery.html">video gallery</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -136,16 +155,19 @@
                 <div class="menu_right">
                     <a href="about_us.html" class="wsus__common_btn">discover more</a>
                     <div class="user_icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                        </svg>
-
+                        <a class="user_link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                            </svg>
+                        </a>
                         <ul>
                             <li><a href="dashboard_profile.html">Dashboard</a></li>
                             <li><a href="dashboard_profile.html">Profile</a></li>
-                            <li><a href="dashboard_change_password.html">Change Password</a></li>
+                            <li>
+                                <a href="dashboard_change_password.html">Change Password</a>
+                            </li>
                             <li><a href="sign_in.html">sign out</a></li>
                         </ul>
                     </div>
@@ -154,7 +176,6 @@
         </div>
     </nav>
     <!-- Main menu end -->
-
 
     <!-- Breadcrumb start -->
     <section class="wsus__breadcrumb" style="background: url(images/breadcrumb_bg.jpg);">
@@ -176,8 +197,7 @@
     </section>
     <!-- Breadcrumb end -->
 
-
-    <!-- faq page start -->
+    <!-- Faq page start -->
     <section class="wsus__faq_page mt_85">
         <div class="container">
             <div class="row">
@@ -318,11 +338,10 @@
             </div>
         </div>
     </section>
-    <!-- faq page end -->
-
+    <!-- Faq page end -->
 
     <!-- Footer start -->
-    <footer class="mt_100" style="background: url(images/footer_bg.jpg);">
+    <footer class="mt_100" style="background: url(images/footer_bg.jpg)">
         <div class="wsus__footer_overlay pt_80">
             <div class="container">
                 <div class="row">
@@ -350,7 +369,6 @@
                                             <path stroke-linecap="round" stroke-linejoin="round"
                                                 d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                         </svg>
-
                                     </div>
                                     <h4>$60000+</h4>
                                     <p>Fund raised of supporters</p>
@@ -360,7 +378,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-xl-2">
+                    <div class="col-lg-2 col-sm-6">
                         <div class="wsus__footer_link">
                             <h3>company</h3>
                             <ul>
@@ -372,7 +390,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-lg-2 col-sm-6">
                         <div class="wsus__footer_link">
                             <h3>Service</h3>
                             <ul>
@@ -384,7 +402,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="wsus__footer_contact">
                             <h3>contact us</h3>
                             <ul>
@@ -423,19 +441,31 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="wsus__footer_newsletter">
                             <h3>newsletter</h3>
                             <form>
-                                <input type="text" placeholder="Subscribe">
-                                <button type="submit"><i class="far fa-paper-plane"></i></button>
+                                <input type="text" placeholder="Subscribe" />
+                                <button type="submit">
+                                    <i class="far fa-paper-plane"></i>
+                                </button>
                             </form>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-behance"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -449,7 +479,9 @@
                                 <p>Copyright © 2024 All Rights Reserved by WebSoluction</p>
                                 <ul>
                                     <li><a href="privaacy_policy.html">Privacy Policy</a></li>
-                                    <li><a href="terms_condition.html">Terms & Conditions</a></li>
+                                    <li>
+                                        <a href="terms_condition.html">Terms & Conditions</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -460,6 +492,13 @@
     </footer>
     <!-- Footer end -->
 
+    <!-- Scroll buton start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Scroll buton end -->
 
     <!--jquery library js-->
     <script src="js/jquery-3.7.1.min.js"></script>
@@ -487,9 +526,10 @@
     <script src="js/select2.min.js"></script>
     <!--sticky sidebar js-->
     <script src="js/sticky_sidebar.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
     <!--main/custom js-->
     <script src="js/main.js"></script>
-
 </body>
 
 </html>
