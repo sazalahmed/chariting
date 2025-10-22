@@ -542,6 +542,13 @@
 }
 
 
+@media (min-width: 1600px) and (max-width: 1800px) {
+    .wsus__breadcrumb_overlay::before {
+        right: 30px;
+    }
+}
+
+
 @media (min-width: 1400px) and (max-width: 1599.99px) {
 
     .main_menu .menu_right .user_icon ul {
@@ -552,6 +559,10 @@
     .main_menu .menu_right .user_icon ul::after {
         left: 20px;
         right: auto;
+    }
+
+    .wsus__breadcrumb_overlay::after {
+        left: 100px;
     }
 }
 
@@ -570,6 +581,11 @@
     .wsus__video_donate_text {
         padding: 40px 40px 40px 15px;
     }
+
+    .wsus__breadcrumb_overlay::after {
+        left: 100px;
+    }
+
 
 
 }
@@ -603,6 +619,9 @@
         padding: 30px 30px 30px 5px;
     }
 
+    .wsus__breadcrumb_overlay::after {
+        left: 100px;
+    }
 
 
 }
@@ -649,7 +668,9 @@
         left: 20px;
     }
 
-
+    .wsus__breadcrumb_overlay::after {
+        left: 50px;
+    }
 
 
 
@@ -702,7 +723,9 @@
         left: 20px;
     }
 
-
+    .wsus__breadcrumb_overlay::after {
+        left: 20px;
+    }
 
 
 
@@ -761,6 +784,8 @@
         left: 20px;
     }
 
-
+    .wsus__breadcrumb_overlay::after {
+        left: 20px;
+    }
 
 }
