@@ -979,7 +979,7 @@
   }
 
   .main_menu .container {
-    padding: 14px 0px;
+    padding: 16px 0px;
     max-width: 100%;
   }
 
@@ -1355,6 +1355,11 @@
   .wsus__sign_up_contant {
     padding: 30px;
   }
+
+  .wssus__event_item .text::after {
+    height: 360px;
+    bottom: -175px;
+  }
 }
 
 @media (max-width: 575.99px) {
@@ -1373,7 +1378,7 @@
   }
 
   .main_menu .container {
-    padding: 14px 0px;
+    padding: 16px 0px;
   }
 
   .main_menu .menu_right {
@@ -1827,6 +1832,19 @@
 
   .wsus__testimonial_item {
     padding: 30px;
+  }
+
+  .wsus_about_us_text .wsus__about_founder h3 {
+    font-size: 18px;
+  }
+
+  .wsus__banner_text h5::before,
+  .wsus__banner_text h5::after {
+    display: none;
+  }
+
+  .wsus__banner_text h5 {
+    padding: 0 !important;
   }
 
 }

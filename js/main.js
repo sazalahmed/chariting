@@ -367,6 +367,8 @@ $(function () {
         arrows: false,
         fade: false,
         asNavFor: '.campaign_slider_small',
+        // for RTL
+        rtl: true,
     });
     $('.campaign_slider_small').slick({
         slidesToShow: 5,
@@ -377,6 +379,8 @@ $(function () {
         centerMode: true,
         centerPadding: "0",
         focusOnSelect: true,
+        // for RTL
+        rtl: true,
 
         responsive: [
             {

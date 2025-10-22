@@ -186,6 +186,7 @@ button {
   font-size: 14px;
   font-weight: 700;
   position: relative;
+  text-align: center;
   z-index: 2;
   overflow: hidden;
   border-radius: 30px;
@@ -537,7 +538,7 @@ button {
   width: 5px;
   height: 5px;
   background: var(--colorWhite);
-  top: 9px;
+  top: 11px;
   right: -18px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -611,11 +612,11 @@ button {
 }
 
 /*================================
-    GLOBAL CSS END 
+  GLOBAL CSS END 
 ================================*/
 
 /*===========================
-    Home page start
+  Home page start
 ===========================*/
 /* header area start */
 header {
@@ -883,6 +884,18 @@ header .wsus__header_info a span {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 12px solid var(--colorWhite);
+}
+
+.main_menu .navbar-toggler {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding: 7px;
+  border: none;
+  border-radius: 6px;
+  background: var(--colorPrimary);
+  color: var(--colorBlack);
+  box-shadow: none;
 }
 
 /* main menu end */
@@ -3704,7 +3717,7 @@ footer {
 
 .wsus__contact_info h3 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 5px;
 }
 
@@ -4262,7 +4275,7 @@ footer {
 
 .wsus__dashboard_heading h5 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
@@ -4297,7 +4310,7 @@ footer {
 
 .wsus__dashboard_profile .text h6 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
@@ -4379,7 +4392,7 @@ footer {
 }
 
 .wsus__dashboard_profile_update_btn {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .wsus__dashboard_profile_update_btn .common_btn {
@@ -4394,7 +4407,7 @@ footer {
 .wsus__dashboard_email_change h6,
 .wsus__dashboard_password_change h6 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
@@ -4506,16 +4519,5 @@ footer {
 }
 
 /*===========================
-   Dashboard end
+  Dashboard end
 ===========================*/
-.main_menu .navbar-toggler {
-  width: 45px;
-  height: 45px;
-  text-align: center;
-  padding: 7px;
-  border: none;
-  border-radius: 6px;
-  background: var(--colorPrimary);
-  color: var(--colorBlack);
-  box-shadow: none;
-}
