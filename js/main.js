@@ -2,10 +2,8 @@ $(function () {
 
     "use strict";
 
-
     // SVG Inject js
     SVGInject(document.querySelectorAll("img.injectable"));
-
 
     // Menu fix js
     if ($(window).scrollTop() > 0) {
@@ -33,7 +31,6 @@ $(function () {
         }
     });
 
-
     // Banner Slider
     $('.banner_slider').slick({
         slidesToShow: 1,
@@ -45,7 +42,6 @@ $(function () {
         arrows: false,
     });
 
-
     // Category Slider
     $('.category_slider').slick({
         slidesToShow: 6,
@@ -55,8 +51,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        rtl: true,
-
+        // rtl: true,
         responsive: [
             {
                 breakpoint: 1400,
@@ -96,18 +91,14 @@ $(function () {
         ]
     });
 
-
     // Select js
     $('.select_js').niceSelect();
-
 
     // Counter js
     $('.counter').countUp();
 
-
     // Vanobox js
     $('.venobox').venobox();
-
 
     // Barfiller js
     $(document).ready(function () {
@@ -125,8 +116,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        rtl: true,
-
+        // rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -156,7 +146,6 @@ $(function () {
             }
         ]
     });
-
 
     // Marquee animi
     $('.marquee_animi').marquee({
@@ -171,7 +160,6 @@ $(function () {
         startVisible: true,
     });
 
-
     // Event Slider
     $('.event_slider').slick({
         slidesToShow: 3,
@@ -181,8 +169,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        rtl: true,
-
+        // rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -215,7 +202,6 @@ $(function () {
         ]
     });
 
-
     // volunteer slider Slider
     $('.volunteer_slider').slick({
         slidesToShow: 4,
@@ -225,8 +211,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        rtl: true,
-
+        // rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -257,8 +242,6 @@ $(function () {
         ]
     });
 
-
-
     // brand Slider
     $('.brand_slider').slick({
         slidesToShow: 5,
@@ -271,8 +254,7 @@ $(function () {
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
         rtl: true,
         // for RTL
-        rtl: true,
-
+        // rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -308,7 +290,6 @@ $(function () {
         ]
     });
 
-
     // related campaing Slider
     $('.related_campaing_slider').slick({
         slidesToShow: 3,
@@ -318,8 +299,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        rtl: true,
-
+        // rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -352,7 +332,6 @@ $(function () {
         ]
     });
 
-
     // Sticky sidebar
     if ($('.sticky_sidebar').length > 0) {
         $(".sticky_sidebar").stickit({
@@ -368,7 +347,7 @@ $(function () {
         fade: false,
         asNavFor: '.campaign_slider_small',
         // for RTL
-        rtl: true,
+        // rtl: true,
     });
     $('.campaign_slider_small').slick({
         slidesToShow: 5,
@@ -380,8 +359,7 @@ $(function () {
         centerPadding: "0",
         focusOnSelect: true,
         // for RTL
-        rtl: true,
-
+        // rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -407,8 +385,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        rtl: true,
-
+        // rtl: true,
         responsive: [
             {
                 breakpoint: 992,
@@ -434,25 +411,9 @@ $(function () {
         ]
     });
 
-
     // select 2 js
     $(document).ready(function () {
         $('.select_2').select2();
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });

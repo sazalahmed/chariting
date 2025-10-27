@@ -3,10 +3,6 @@
     text-align: right;
 }
 
-.slick-list {
-    /* direction: ltr; */
-}
-
 .wsus__banner .slick-list {
     direction: ltr;
 }
@@ -541,13 +537,11 @@
     -o-transform: scaleX(-1);
 }
 
-
 @media (min-width: 1600px) and (max-width: 1800px) {
     .wsus__breadcrumb_overlay::before {
         right: 30px;
     }
 }
-
 
 @media (min-width: 1400px) and (max-width: 1599.99px) {
 
@@ -586,10 +580,18 @@
         left: 100px;
     }
 
+    .wsus__contact_info {
+        padding: 30px 85px 30px 30px;
+    }
 
+    .wsus__contact_info span {
+        right: 20px;
+    }
 
+    .wsus__contact_img {
+        margin-right: 0;
+    }
 }
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -623,9 +625,22 @@
         left: 100px;
     }
 
+    .wsus__campaign_details_text {
+        padding-right: 0;
+    }
 
+    .wsus__contact_img {
+        margin-right: 5px;
+    }
+
+    .wsus__contact_info {
+        padding: 30px 75px 30px 30px;
+    }
+
+    .wsus__contact_info span {
+        right: 20px;
+    }
 }
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
@@ -672,15 +687,18 @@
         left: 50px;
     }
 
+    .wsus__campaign_details_text {
+        padding-right: 0;
+    }
 
+    .wsus__contact_img {
+        margin-right: 0;
+    }
 
-
-
-
-
-
+    .wsus__dashboard_profile .text {
+        margin-right: 0;
+    }
 }
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
@@ -727,16 +745,14 @@
         left: 20px;
     }
 
+    .wsus__campaign_details_text {
+        padding-right: 0;
+    }
 
-
-
-
-
-
-
-
+    .wsus__contact_img {
+        margin-right: 0;
+    }
 }
-
 
 @media (max-width: 575.99px) {
 
@@ -788,4 +804,15 @@
         left: 20px;
     }
 
+    .wsus__campaign_details_text {
+        padding-right: 0;
+    }
+
+    .wsus__contact_img {
+        margin-right: 0;
+    }
+
+    .wsus__dashboard_profile .text {
+        margin-right: 0;
+    }
 }
