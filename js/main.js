@@ -152,9 +152,9 @@ $(function () {
         speed: 50,
         gap: 25,
         delayBeforeStart: 0,
-        // direction: 'left',
-        // for RTL
         direction: 'right',
+        // for RTL
+        // direction: 'left',
         duplicated: true,
         pauseOnHover: true,
         startVisible: true,
@@ -252,7 +252,6 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
-        rtl: true,
         // for RTL
         // rtl: true,
         responsive: [

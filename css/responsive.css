@@ -352,6 +352,16 @@
   .wsus__sign_up_contant b::after {
     width: 120px;
   }
+
+  .wsus__category_page .wsus__category_item .img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .wsus__category_page .wsus__category_item .img::after {
+    width: 170px;
+    height: 170px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
