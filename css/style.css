@@ -819,7 +819,7 @@ header .wsus__header_info a span {
   position: fixed;
   top: 0;
   background: var(--colorBlack);
-  z-index: 999;
+  z-index: 9999;
 }
 
 .main_menu .navbar-nav .nav-item .sub_menu,
@@ -939,6 +939,7 @@ header .wsus__header_info a span {
 
 .wsus__banner div {
   height: 100%;
+  /* margin: 0; */
 }
 
 .wsus__banner_overlay {
@@ -1120,7 +1121,7 @@ header .wsus__header_info a span {
 
 .wsus__banner .slick-dots li.slick-active button {
   background: var(--colorPrimary);
-  border: var(--colorPrimary);
+  border: var(--colorPrimary) !important;
 }
 
 .wsus__banner .slick-dots li button::after {
@@ -4520,4 +4521,223 @@ footer {
 
 /*===========================
   Dashboard end
+===========================*/
+
+/*===========================
+  Home page 02 start
+===========================*/
+.home_2 {}
+
+.home_2 header {
+  background: var(--colorBlack);
+  padding: 0px 80px;
+}
+
+.home_2 .main_menu {
+  background: transparent;
+  top: 43px;
+  padding: 0px 80px;
+}
+
+.home_2 header .container,
+.home_2 .main_menu .container {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.home_2 .main_menu.menu_fix {
+  top: 0 !important;
+  background: var(--colorWhite) !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.home_2 .main_menu .navbar-nav .nav-item .nav-link {
+  color: var(--colorBlack);
+}
+
+/* radius 6px */
+.home_2 .main_menu .navbar-nav .nav-item .sub_menu,
+.home_2 .main_menu .menu_right .user_icon ul,
+.home_2 .main_menu .menu_right .user_icon .user_link,
+.home_2 .wsus__common_btn {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+/* background black */
+.home_2 .main_menu .menu_right .wsus__common_btn::before,
+.home_2 .main_menu .menu_right .user_icon:hover .user_link {
+  background: var(--colorBlack);
+}
+
+/* color white */
+.home_2 .main_menu .menu_right .wsus__common_btn:hover,
+.home_2 .main_menu .menu_right .user_icon:hover .user_link {
+  color: var(--colorWhite);
+}
+
+.home_2 .main_menu .navbar-nav .nav-item .sub_menu::after,
+.home_2 .main_menu .menu_right .user_icon ul::after {
+  border-bottom: 12px solid #dcdbdb;
+}
+
+.home_2 .main_menu .menu_right .toggler_btn {}
+
+
+
+
+.home_2 .wsus__banner {
+  height: 800px;
+  padding: 0px 90px;
+  margin-top: 130px;
+  border-radius: 30px;
+}
+
+.home_2 .wsus__banner_slider_item {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.home_2 .wsus__banner_text {
+  padding: 0;
+}
+
+.home_2 .wsus__banner .slick-dots {
+  top: 50%;
+  right: -25px;
+  background: var(--colorWhite);
+  height: auto;
+  transform: translateY(-50%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 25px;
+  border-radius: 50px;
+  margin: 0;
+  gap: 0;
+}
+
+.home_2 .wsus__banner .slick-dots li button {
+  border-color: #adaaaa;
+  width: 12px;
+  height: 12px;
+}
+
+.home_2 .wsus__banner .slick-dots::after {
+  position: absolute;
+  content: "";
+}
+
+.home_2 .wsus__banner .slick-dots li button::after {
+  background: #ffc10740;
+}
+
+.home_2 .wsus__banner_text {
+  align-items: center;
+}
+
+.home_2 .wsus__banner_text h5,
+.home_2 .wsus__banner_text h1,
+.home_2 .wsus__banner_text p {
+  text-align: center;
+  padding: 0;
+}
+
+.home_2 .wsus__banner_text h5::before,
+.home_2 .wsus__banner_text h5::after {
+  display: none;
+}
+
+.home_2 .wsus__banner .circle_box {
+  bottom: 50px;
+  right: auto;
+  left: 120px;
+}
+
+.home_2 .wsus__banner::before,
+.home_2 .wsus__banner_slider_item::after {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home_2 .wsus__category_item .img {
+  overflow: hidden;
+  width: 100%;
+  height: 195px;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: none;
+}
+
+.home_2 .wsus__category_item .img img {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.home_2 .wsus__category_item .img::after {
+  display: none;
+}
+
+.home_2 .wsus__category_item h3 {
+  font-size: 16px;
+  position: absolute;
+  bottom: -23px;
+  background: var(--colorWhite);
+  width: 90%;
+  left: 5%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: rgb(149 157 165 / 29%) 0px 8px 24px;
+}
+
+.home_2 .wsus__category_item {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 40px !important;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================
+  Home page 02 end
 ===========================*/
