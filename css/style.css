@@ -4919,7 +4919,7 @@ footer {
 .wsus__services_2 .wsus__service_item .text {
   text-align: left;
   margin-left: 40px;
-  background: #E9F1FE;
+  background: #f6fcff;
   padding: 20px 20px 20px 55px;
   border-left: 4px solid #ddd;
   border-radius: 12px;
@@ -4995,26 +4995,24 @@ footer {
 }
 
 .wssus__event_item_2 .img {
-  width: 220px;
-  height: 300px;
+  display: block;
+  width: 180px;
+  height: 240px;
   overflow: hidden;
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
+  border-radius: 8px;
+  margin: 10px;
 }
 
 .wssus__event_item_2 .text {
-  width: 345px;
-  padding: 20px;
+  width: 215px;
+  padding: 10px;
 }
 
 .wssus__event_item_2 .text ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 5px 20px;
+  gap: 0;
   border-bottom: 1px solid #eee;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -5033,12 +5031,11 @@ footer {
 
 .wssus__event_item_2 .text ul li span {
   display: block;
-  width: 20px;
-  margin-bottom: 3px;
+  width: 15px;
 }
 
 .wssus__event_item_2 .text a {
-  /* font-size: 18px; */
+  font-size: 18px;
 }
 
 .wssus__event_item_2 .text p {
