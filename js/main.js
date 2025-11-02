@@ -202,7 +202,7 @@ $(function () {
         ]
     });
 
-    // volunteer slider Slider
+    // Volunteer slider
     $('.volunteer_slider').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
@@ -242,7 +242,7 @@ $(function () {
         ]
     });
 
-    // brand Slider
+    // Brand Slider
     $('.brand_slider').slick({
         slidesToShow: 5,
         slidesToScroll: 5,
@@ -413,6 +413,20 @@ $(function () {
     // select 2 js
     $(document).ready(function () {
         $('.select_2').select2();
+    });
+
+    // Testimonial 2 Slider
+    $('.testimonial_2_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        dots: true,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        // for RTL
+        // rtl: true,
     });
 
 });
