@@ -427,6 +427,28 @@ $(function () {
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
         // for RTL
         // rtl: true,
+
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 });
