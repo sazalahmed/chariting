@@ -654,11 +654,11 @@
 }
 
 .wsus__footer_2_banner img {
-    border-radius: 20px 150px 20px 20px;
-    -webkit-border-radius: 20px 150px 20px 20px;
-    -moz-border-radius: 20px 150px 20px 20px;
-    -ms-border-radius: 20px 150px 20px 20px;
-    -o-border-radius: 20px 150px 20px 20px;
+    border-radius: 0px 150px 0px 0px;
+    -webkit-border-radius: 0px 150px 0px 0px;
+    -moz-border-radius: 0px 150px 0px 0px;
+    -ms-border-radius: 0px 150px 0px 0px;
+    -o-border-radius: 0px 150px 0px 0px;
 }
 
 .wsus__footer_2_newsletter .ms-auto {

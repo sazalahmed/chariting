@@ -5371,11 +5371,11 @@ footer {
 }
 
 .wsus__footer_2_banner img {
-  border-radius: 150px 20px 20px 20px;
-  /* -webkit-border-radius: 100px 0px 0px 0px; */
-  -moz-border-radius: 100px 0px 0px 0px;
-  -ms-border-radius: 100px 0px 0px 0px;
-  -o-border-radius: 100px 0px 0px 0px;
+  border-radius: 150px 0px 0px 0px;
+  -moz-border-radius: 150px 0px 0px 0px;
+  -ms-border-radius: 150px 0px 0px 0px;
+  -o-border-radius: 150px 0px 0px 0px;
+  -webkit-border-radius: 150px 0px 0px 0px;
 }
 
 .wsus__footer_2_banner::after {
