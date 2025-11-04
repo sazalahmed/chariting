@@ -4556,7 +4556,7 @@ footer {
 
 .home_2 .main_menu {
   background: transparent;
-  top: 43px;
+  top: 37px;
   padding: 0px 80px;
 }
 
@@ -4583,7 +4583,7 @@ footer {
 .home_2 .wsus__banner {
   height: 800px;
   padding: 0px 90px;
-  margin-top: 130px;
+  margin-top: 118px;
   border-radius: 30px;
 }
 
@@ -4774,7 +4774,6 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px 50px;
-  margin-bottom: 25px;
 }
 
 .wsus__about_2_text_img h3 {
@@ -4982,10 +4981,6 @@ footer {
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-.wsus__event_2 {
-  padding: 0px 80px;
 }
 
 .wsus__event_2 .container-fluid {
