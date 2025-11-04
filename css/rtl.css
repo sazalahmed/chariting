@@ -537,6 +537,156 @@
     -o-transform: scaleX(-1);
 }
 
+/* home 2 start */
+.home_2 .wsus__banner .slick-dots {
+    right: auto;
+    left: -25px;
+}
+
+.home_2 .section_heading h5 {
+    padding-left: 0;
+    padding-right: 60px;
+}
+
+.home_2 .section_heading h5::before {
+    left: auto;
+    right: 40px;
+}
+
+.home_2 .section_heading h5::after {
+    left: auto;
+    right: 0;
+}
+
+.home_2 .section_heading,
+.home_2 .section_heading h5,
+.home_2 .section_heading h2 {
+    text-align: right;
+}
+
+.wsus_about_us_text_2 ul li {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.wsus_about_us_text_2 ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__counter_2_item .text {
+    border-left: 0;
+    border-right: 1px solid #ffc10742;
+    padding-left: 0;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.wsus__campaign_card_2 .img span,
+.wsus__campaign_card .img span {
+    left: auto;
+    right: 15px;
+}
+
+.wsus__services_2 .wsus__service_item .text {
+    text-align: right;
+    margin-left: 0;
+    margin-right: 40px;
+    padding: 20px 55px 20px 20px;
+    border-left: 0;
+    border-right: 4px solid #ddd;
+    transform: skewX(10deg);
+    -webkit-transform: skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -ms-transform: skewX(10deg);
+    -o-transform: skewX(10deg);
+}
+
+.wsus__services_2 .wsus__service_item .text a {
+    transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    -o-transform: skewX(-10deg);
+}
+
+.wsus__services_2 .wsus__service_item .text p {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+    transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    -o-transform: skewX(-10deg);
+}
+
+.wsus__services_2 .wsus__service_item .icon {
+    left: auto;
+    right: 0;
+}
+
+.wsus__testimonial_2_footer .img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__testimonial_2_area .nextArrow,
+.wsus__testimonial_2_area .prevArrow {
+    right: 147px;
+    left: auto;
+}
+
+.wsus__testimonial_2_area .prevArrow {
+    left: auto;
+    right: 82px;
+}
+
+.wsus__footer_2::after {
+    right: auto;
+    left: 50px;
+}
+
+.wsus__footer_2_banner img {
+    border-radius: 20px 150px 20px 20px;
+    -webkit-border-radius: 20px 150px 20px 20px;
+    -moz-border-radius: 20px 150px 20px 20px;
+    -ms-border-radius: 20px 150px 20px 20px;
+    -o-border-radius: 20px 150px 20px 20px;
+}
+
+.wsus__footer_2_newsletter .ms-auto {
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+
+.wsus__footer_2_newsletter form button {
+    right: auto;
+    left: 5px;
+}
+
+.wsus__footer_2_newsletter .text_area {
+    padding: 30px 147px 30px 30px;
+}
+
+.wsus__footer_2_banner::after {
+    left: auto;
+    right: -35px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+/* home 2 end */
+
 @media (min-width: 1600px) and (max-width: 1800px) {
     .wsus__breadcrumb_overlay::before {
         right: 30px;
@@ -815,4 +965,12 @@
     .wsus__dashboard_profile .text {
         margin-right: 0;
     }
+
+    /* home 2 start */
+
+
+
+
+
+    /* home 2 end */
 }

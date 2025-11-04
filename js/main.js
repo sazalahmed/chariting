@@ -51,7 +51,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1400,
@@ -116,7 +116,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -154,7 +154,7 @@ $(function () {
         delayBeforeStart: 0,
         direction: 'right',
         // for RTL
-        // direction: 'left',
+        direction: 'left',
         duplicated: true,
         pauseOnHover: true,
         startVisible: true,
@@ -169,7 +169,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -211,7 +211,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -253,7 +253,7 @@ $(function () {
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -298,7 +298,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -346,7 +346,7 @@ $(function () {
         fade: false,
         asNavFor: '.campaign_slider_small',
         // for RTL
-        // rtl: true,
+        rtl: true,
     });
     $('.campaign_slider_small').slick({
         slidesToShow: 5,
@@ -358,7 +358,7 @@ $(function () {
         centerPadding: "0",
         focusOnSelect: true,
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -384,7 +384,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 992,
@@ -426,7 +426,7 @@ $(function () {
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
         // for RTL
-        // rtl: true,
+        rtl: true,
 
         responsive: [
             {
