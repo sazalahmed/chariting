@@ -450,4 +450,54 @@ $(function () {
         ]
     });
 
+
+    $(document).ready(function () {
+        $('.wsus__payment_method').on('click', function (e) {
+            e.preventDefault(); // prevent the link from jumping
+            $('.wsus__payment_method').removeClass('active'); // remove from all
+            $(this).addClass('active'); // add to the clicked one
+        });
+    });
+
+
+
+    $(document).ready(function () {
+        $('.wsus__video_donation_box ul li').on('click', function () {
+            // remove '$' and trim text
+            let value = $(this).text().replace('$', '').trim();
+
+            // update input value
+            $('.wsus__video_donation_box .input_box input').val(value);
+
+            // manage active class
+            $('.wsus__video_donation_box ul li').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+
+
+    // $(document).ready(function () {
+    //     $('.wsus__video_donation_box ul li').on('click', function () {
+    //         // get the text from li
+    //         let value = $(this).text().replace('$', '').trim();
+
+    //         // remove active from all li
+    //         $('.wsus__video_donation_box ul li').removeClass('active');
+    //         // add active to clicked li
+    //         $(this).addClass('active');
+
+    //         // if 'custom' clicked → make input blank
+    //         if (value.toLowerCase() === 'custom') {
+    //             $('.wsus__video_donation_box .input_box input').val('');
+    //         } else {
+    //             $('.wsus__video_donation_box .input_box input').val(value);
+    //         }
+    //     });
+    // });
+
+
+
+
+
+
 });

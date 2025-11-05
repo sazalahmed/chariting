@@ -686,6 +686,15 @@
 }
 
 /* home 2 end */
+.wsus__payment_method::after {
+    right: auto;
+    left: -2px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
 
 @media (min-width: 1600px) and (max-width: 1800px) {
     .wsus__breadcrumb_overlay::before {

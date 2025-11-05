@@ -2272,6 +2272,7 @@ header .wsus__header_info a span {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+  text-transform: capitalize;
 }
 
 .wsus__video_donation_box .input_box span {
@@ -2326,9 +2327,13 @@ header .wsus__header_info a span {
   -o-border-radius: 50px;
 }
 
+.wsus__video_donation_box ul li:hover {
+  color: var(--colorPrimary);
+}
+
 .wsus__video_donation_box ul li.active {
-  background: var(--colorPrimary);
-  color: var(--colorBlack);
+  background: var(--colorPrimary) !important;
+  color: var(--colorBlack) !important;
 }
 
 .wsus__video_donate_img {
@@ -4545,6 +4550,162 @@ footer {
 /*===========================
   Dashboard end
 ===========================*/
+
+/* Payment page start */
+.wsus__payment_info form h5,
+.wsus__payment_method_area h5 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.wsus__payment_info .wsus__payment_iput {
+  margin-bottom: 15px;
+}
+
+.wsus__payment_info .wsus__video_donate_text {
+  padding: 0;
+}
+
+.wsus__payment_method_area {
+  margin-top: 20px;
+}
+
+.wsus__payment_method {
+  display: block;
+  height: 90px;
+  border: 1px solid #eee;
+  padding: 15px 25px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  position: relative;
+}
+
+.wsus__payment_method::after {
+  position: absolute;
+  content: "\f00c";
+  font-family: "font awesome 5 free";
+  font-weight: 600;
+  font-size: 12px;
+  top: -2px;
+  right: -2px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background: var(--colorPrimary);
+  color: var(--colorBlack);
+  opacity: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear .2s;
+  -webkit-transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  -ms-transition: all linear .2s;
+  -o-transition: all linear .2s;
+}
+
+.wsus__payment_method:hover,
+.wsus__payment_method.active {
+  border-color: var(--colorPrimary);
+}
+
+.wsus__payment_method.active::after {
+  opacity: 1;
+}
+
+.wsus__payment_sidebar {
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.wsus__payment_sidebar h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.wsus__donate_item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 15px;
+}
+
+.wsus__donate_item .img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.wsus__donate_item .text {
+  width: 67%;
+}
+
+.wsus__donate_item .text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.wsus__payment_sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.wsus__payment_sidebar ul li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--colorBlack);
+}
+
+.wsus__payment_sidebar ul li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wsus__payment_sidebar ul li:last-child {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 4px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.wsus__payment_sidebar ul li:last-child span {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+
+
+
+
+
+/* Payment page end */
 
 /*===========================
   Home page 02 start

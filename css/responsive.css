@@ -520,6 +520,17 @@
   }
 
   /* Home 2 end */
+  .wsus__payment_method {
+    height: 77px;
+  }
+
+  .wsus__payment_sidebar {
+    padding: 25px;
+  }
+
+  .wsus__donate_item .text {
+    width: 61%;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -918,6 +929,17 @@
   }
 
   /* Home 2 end */
+  .wsus__payment_method {
+    height: 87px;
+  }
+
+  .wsus__payment_sidebar {
+    padding: 25px;
+  }
+
+  .wsus__donate_item .text {
+    width: 64%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -1423,6 +1445,13 @@
   }
 
   /* home 2 end */
+  .wsus__payment_method {
+    height: 85px;
+  }
+
+  .wsus__payment_sidebar {
+    margin-top: 25px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1985,6 +2014,17 @@
   }
 
   /* home 2 end */
+  .wsus__payment_method {
+    height: 85px;
+  }
+
+  .wsus__payment_sidebar {
+    margin-top: 25px;
+  }
+
+  .wsus__donate_item .text {
+    width: 73%;
+  }
 }
 
 @media (max-width: 575.99px) {
@@ -2642,4 +2682,16 @@
   }
 
   /* home 2 end */
+  .wsus__payment_method {
+    height: auto;
+  }
+
+  .wsus__payment_sidebar {
+    padding: 20px;
+    margin-top: 25px;
+  }
+
+  .wsus__donate_item .text {
+    width: 63%;
+  }
 }
