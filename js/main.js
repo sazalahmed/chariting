@@ -6,16 +6,6 @@ $(function () {
     SVGInject(document.querySelectorAll("img.injectable"));
 
     // Menu fix js
-    if ($(window).scrollTop() > 0) {
-        if ($('.main_menu').offset() != undefined) {
-            $('.main_menu').addClass('menu_fix');
-        }
-    } else {
-        if ($('.main_menu').offset() != undefined) {
-            $('.main_menu').removeClass('menu_fix');
-        }
-    };
-
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
             if ($('.main_menu').offset() != undefined) {
