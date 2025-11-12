@@ -476,27 +476,22 @@ $(function () {
     });
 
 
-    // $(document).ready(function () {
-    //     $('.wsus__video_donation_box ul li').on('click', function () {
-    //         // get the text from li
-    //         let value = $(this).text().replace('$', '').trim();
+    // banner 3 heading animation
+    $('.animate-zoom').animatedHeadline({
+        animationType: 'zoom'
+    });
 
-    //         // remove active from all li
-    //         $('.wsus__video_donation_box ul li').removeClass('active');
-    //         // add active to clicked li
-    //         $(this).addClass('active');
-
-    //         // if 'custom' clicked → make input blank
-    //         if (value.toLowerCase() === 'custom') {
-    //             $('.wsus__video_donation_box .input_box input').val('');
-    //         } else {
-    //             $('.wsus__video_donation_box .input_box input').val(value);
-    //         }
-    //     });
-    // });
-
-
-
+    // Event 3 slider
+    $('.event_3_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+    });
 
 
 

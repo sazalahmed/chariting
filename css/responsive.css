@@ -75,7 +75,7 @@
     height: 130px;
   }
 
-  .wsus__campaign::after {
+  .wsus__campaign_bg {
     width: 100%;
     left: 0;
   }
@@ -255,7 +255,7 @@
     height: 110px;
   }
 
-  .wsus__campaign::after {
+  .wsus__campaign_bg {
     width: 100%;
     height: 515px;
     left: 0;
@@ -617,7 +617,7 @@
     height: 115px;
   }
 
-  .wsus__campaign::after {
+  .wsus__campaign_bg {
     width: 100%;
     left: 0;
     height: 522px;
@@ -1057,7 +1057,7 @@
     height: 115px;
   }
 
-  .wsus__campaign::after {
+  .wsus__campaign_bg {
     width: 100%;
     height: 400px;
     left: 0;
@@ -1569,7 +1569,7 @@
     height: 125px;
   }
 
-  .wsus__campaign::after {
+  .wsus__campaign_bg {
     width: 100%;
     height: 400px;
     left: 0;
@@ -2193,7 +2193,7 @@
     height: 90px;
   }
 
-  .wsus__campaign::after {
+  .wsus__campaign_bg {
     width: 100%;
     height: 400px;
     left: 0;
