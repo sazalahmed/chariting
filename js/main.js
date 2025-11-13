@@ -41,7 +41,7 @@ $(function () {
         dots: true,
         arrows: false,
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1400,
@@ -243,7 +243,7 @@ $(function () {
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
         // for RTL
-        // rtl: true,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -481,6 +481,8 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        // for RTL
+        rtl: true,
     });
 
 
