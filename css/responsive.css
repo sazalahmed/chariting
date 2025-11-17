@@ -706,6 +706,10 @@
     height: 200px;
   }
 
+  .wsus__faq_3_img {
+    height: 545px;
+  }
+
   /* home page 3 end */
 }
 
@@ -1292,6 +1296,10 @@
   footer::before {
     width: 62px;
     height: 170px;
+  }
+
+  .wsus__faq_3_img {
+    height: 455px;
   }
 
   /* home page 3 end */
@@ -2029,6 +2037,10 @@
 
   .wsus__event_3_banner {
     margin-right: 0;
+  }
+
+  .wsus__faq_3_img {
+    height: 840px;
   }
 
   /* home page 3 end */
@@ -2823,6 +2835,10 @@
 
   .wsus__event_3_banner {
     margin-right: 0;
+  }
+
+  .wsus__faq_3_img {
+    height: 620px;
   }
 
   /* home page 3 end */
@@ -3724,6 +3740,10 @@
   .wsus__banner_3::before {
     width: 85px;
     height: 225px;
+  }
+
+  .wsus__faq_3_img {
+    height: auto;
   }
 
   /* home page 3 end */
