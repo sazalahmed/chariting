@@ -1107,6 +1107,10 @@ footer::before {
         right: 22%;
     }
 
+    .wsus__event_3_banner {
+        margin-left: 0;
+    }
+
     /* hone 3 end */
 }
 
@@ -1270,6 +1274,10 @@ footer::before {
         -moz-transform: rotateY(0deg);
         -ms-transform: rotateY(0deg);
         -o-transform: rotateY(0deg);
+    }
+
+    .wsus__become_volunteer_3 .overlay::after {
+        left: -8px;
     }
 
     /* hone 3 end */

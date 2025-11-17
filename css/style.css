@@ -99,6 +99,8 @@ button {
 
 :root {
   --colorPrimary: #ffc107;
+  --colorRed: #FF5F27;
+  --colorBlue: #0085FF;
   --paraColor: #4a505c;
   --colorBlack: #0d2420;
   --ratingColor: #ffa121;
@@ -5000,8 +5002,8 @@ footer::before {
   display: flex;
   justify-content: center;
   align-items: end;
-  color: var(--colorBlack) !important;
-  background: linear-gradient(0deg, rgba(255, 193, 7, 1) 0%, rgba(255, 193, 7, 0.77) 20%, rgba(255, 193, 7, 0) 50%);
+  color: var(--colorWhite) !important;
+  background: linear-gradient(0deg, rgb(220 91 44) 0%, rgb(255 95 39) 20%, rgba(255, 193, 7, 0) 50%);
   z-index: -1;
 }
 
@@ -5063,8 +5065,8 @@ footer::before {
   font-size: 12px;
   top: 0;
   left: 0;
-  color: var(--colorPrimary);
-  border: 1px dashed var(--colorPrimary);
+  color: var(--colorRed);
+  border: 1px dashed var(--colorRed);
   width: 25px;
   height: 25px;
   line-height: 25px;
@@ -5535,7 +5537,12 @@ footer::before {
   z-index: 1;
   padding: 55px 30px 20px 30px;
   width: 100%;
-  background: linear-gradient(0deg, rgb(255 193 7 / 84%) 0%, rgba(255, 193, 7, 0.74) 70%, rgba(255, 193, 7, 0) 100%);
+  background: linear-gradient(0deg, rgb(255 95 39) 0%, rgb(251 97 44 / 72%) 70%, rgba(255, 193, 7, 0) 100%);
+}
+
+.wsus__single_blog_2 .text .title {
+  color: var(--colorWhite);
+  background-image: linear-gradient(var(--colorWhite), var(--colorWhite)), linear-gradient(var(--colorWhite), var(--colorWhite));
 }
 
 .wsus__single_blog_2 .tags {
@@ -5571,7 +5578,7 @@ footer::before {
 }
 
 .wsus__single_blog_2 .text ul li {
-  color: var(--colorBlack);
+  color: var(--colorWhite);
   font-size: 14px;
   font-weight: 500;
   position: relative;
@@ -5582,7 +5589,7 @@ footer::before {
   content: "";
   width: 5px;
   height: 5px;
-  background: var(--colorBlack);
+  background: var(--colorWhite);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -6969,3 +6976,72 @@ footer::before {
 /*===========================
   Home page 03 end
 ===========================*/
+
+.home_2 .wsus__common_btn,
+.home_2 .main_menu .menu_right .user_icon .user_link,
+.home_2 .play_btn,
+.home_2 .wsus__counter_2_item .icon,
+.home_2 .wsus__video_donation_box .input_box span,
+.wsus__single_blog_2 .tags {
+  background: var(--colorRed);
+  color: var(--colorWhite);
+}
+
+.home_2 .wsus__common_btn::after,
+.home_2 .menu_right .wsus__common_btn:hover::after {
+  color: var(--colorWhite);
+}
+
+.home_2 .wsus__banner .circle_box svg {
+  fill: var(--colorWhite);
+}
+
+.home_2 .navbar-nav .nav-item .sub_menu li:hover a,
+.home_2 .navbar-nav .nav-item .sub_menu li a.active,
+.home_2 .menu_right .user_icon ul li a:hover,
+.home_2 .wsus__video_donation_box ul li:hover,
+.home_2 .section_heading h5,
+.wsus__footer_2_link ul li a:hover,
+.wsus__footer_2_copyright_text p span {
+  color: var(--colorRed);
+}
+
+.home_2 .section_heading h5::after,
+.home_2 .section_heading h5::before,
+.home_2 .play_btn::after {
+  background: var(--colorRed);
+}
+
+.home_2 .barfiller .fill {
+  background: var(--colorRed) !important;
+}
+
+.home_2 .wsus__video_donation_box ul li.active {
+  background: var(--colorRed) !important;
+  color: var(--colorWhite) !important;
+}
+
+.home_2 .slick-dots li.slick-active button {
+  background: var(--colorRed);
+  border-color: var(--colorRed);
+}
+
+.home_2 .nextArrow:hover,
+.home_2 .prevArrow:hover {
+  background: var(--colorRed);
+  border-color: var(--colorRed);
+  color: var(--colorWhite);
+}
+
+.home_2 .wsus__single_brand:hover {
+  border-color: var(--colorRed);
+}
+
+.wsus__footer_2::after,
+.wsus__footer_2_banner::after {
+  filter: brightness(0) saturate(100%) invert(56%) sepia(41%) saturate(6095%) hue-rotate(343deg) brightness(100%) contrast(104%);
+}
+
+.home_2 .wsus__banner .slick-dots li button::after {
+  background: #ff5f272e;
+}
